@@ -1,0 +1,2698 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f0b0c553be8edd4682e9180fdd13e37, type: 3}
+  m_Name: I2Languages
+  m_EditorClassIdentifier: 
+  mSource:
+    UserAgreesToHaveItOnTheScene: 0
+    UserAgreesToHaveItInsideThePluginsFolder: 0
+    GoogleLiveSyncIsUptoDate: 1
+    mTerms:
+    - Term: Welcome/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Welcome to Money Plus
+      - Welcome to Money Plus
+      - Welcome to Money Plus
+      - BIENVENUE
+      - BIENVENIDO
+      - BENVENUTO
+      - BEM-VINDO
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Welcome/TermsButton
+      TermType: 0
+      Description: 
+      Languages:
+      - By clicking on Continue you accept our
+      - By clicking on Continue you accept our
+      - By clicking on Continue you accept our
+      - En cliquant sur Continuer, vous acceptez nos
+      - Al hacer clic en Continuar, aceptas nuestros
+      - Facendo clic su Continua, accetti i nostri
+      - "Ao clicar em Continuar, voc\xEA aceita nossa"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/Privacy
+      TermType: 0
+      Description: 
+      Languages:
+      - "<b>Privacy and Terms of Usage</b>\n\nWe hereby inform you that\nPlus Games
+        SARL collects,\nstores and transmit the following\npersonal data:\n\n- Installed
+        apps (including the\nuse duration and use history)\n\n- Registration data
+        (IP address, \nDevice ID, email)\n\n- Location (approximate)\n\n- Data for
+        Attribution (User Agent,\nAD ID, Device ID)\n\n- Data for Personalised Ads\n(cookies,
+        IDs)\n\nThe data will be connected to\nyour end device via the device ID
+        and\nsent to our servers. In\norder for app providers to finance our\napp\nsuggestions,
+        we must send\nthem the\ndevice ID for billing purposes.\n\nThe processing
+        of the above\ndata is\nnecessary to be able to\nrecommend, via\nsystem messages,
+        the\ninstallation of\napps available in Playtime\nthat match\nyour interests,
+        and calculate\nthe\nbonuses acquired as a result\nof your\nuse of the corresponding\napps.\n\n**Consent**\n\nBy
+        clicking on \u201CACCEPT\u201D, I give Plus Games SARL and adjoe GmbH my
+        consent to process my above mentioned personal data and transmit it to other
+        app providers so that I can use Playtime as described.\n\nl am aware that
+        a profile of\ninterests will\nbe generated using the above\ndata, and\ndepending
+        on the types of\napps I use,\nthis may contain particularly\nsensitive\npersonal
+        data (e.g.\nhealth-related data or\ndata about my sexual orientation, and
+        any other data in special categories\npursuant to Art. 9[1] GDPR). For\nthat\nreason
+        my consent also\napplies\nexplicitly to the processing of\nthis data.\n\nThe
+        full links to our <u><link=\u201Chttps://plus-games.com/rewardee-privacy\u201D>Privacy\nPolicy</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Terms
+        Of Use</link></u> and Adjoe's <u><link=\u201Chttps://adjoe.zone/legal/en/data_privacy.html\u201D>Data\nPrivacy
+        Statement</link></u> and <u><link=\u201Chttps://adjoe.zone/legal/en/terms_of_use.html\u201D>Terms\nand
+        Conditions of use</link></u>."
+      - "<b>Privacy and Terms of Usage</b>\n\nWe hereby inform you that\nPlus Games
+        SARL collects,\nstores and transmit the following\npersonal data:\n\n- Installed
+        apps (including the\nuse duration and use history)\n\n- Registration data
+        (IP address, \nDevice ID, email)\n\n- Location (approximate)\n\n- Data for
+        Attribution (User Agent,\nAD ID, Device ID)\n\n- Data for Personalised Ads\n(cookies,
+        IDs)\n\nThe data will be connected to\nyour end device via the device ID
+        and\nsent to our servers. In\norder for app providers to finance our\napp\nsuggestions,
+        we must send\nthem the\ndevice ID for billing purposes.\n\nThe processing
+        of the above\ndata is\nnecessary to be able to\nrecommend, via\nsystem messages,
+        the\ninstallation of\napps available in Playtime\nthat match\nyour interests,
+        and calculate\nthe\nbonuses acquired as a result\nof your\nuse of the corresponding\napps.\n\n**Consent**\n\nBy
+        clicking on \u201CACCEPT\u201D, I give Plus Games SARL and adjoe GmbH my
+        consent to process my above mentioned personal data and transmit it to other
+        app providers so that I can use Playtime as described.\n\nl am aware that
+        a profile of\ninterests will\nbe generated using the above\ndata, and\ndepending
+        on the types of\napps I use,\nthis may contain particularly\nsensitive\npersonal
+        data (e.g.\nhealth-related data or\ndata about my sexual orientation, and
+        any other data in special categories\npursuant to Art. 9[1] GDPR). For\nthat\nreason
+        my consent also\napplies\nexplicitly to the processing of\nthis data.\n\nThe
+        full links to our <u><link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Privacy\nPolicy</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Terms
+        Of Use</link></u> and Adjoe's <u><link=\u201Chttps://adjoe.zone/legal/en/data_privacy.html\u201D>Data\nPrivacy
+        Statement</link></u> and <u><link=\u201Chttps://adjoe.zone/legal/en/terms_of_use.html\u201D>Terms\nand
+        Conditions of use</link></u>."
+      - "<b>Privacy and Terms of Usage</b>\n\nWe hereby inform you that\nPlus Games
+        SARL collects,\nstores and transmit the following\npersonal data:\n\n- Installed
+        apps (including the\nuse duration and use history)\n\n- Registration data
+        (IP address, \nDevice ID, email)\n\n- Location (approximate)\n\n- Data for
+        Attribution (User Agent,\nAD ID, Device ID)\n\n- Data for Personalised Ads\n(cookies,
+        IDs)\n\nThe data will be connected to\nyour end device via the device ID
+        and\nsent to our servers. In\norder for app providers to finance our\napp\nsuggestions,
+        we must send\nthem the\ndevice ID for billing purposes.\n\nThe processing
+        of the above\ndata is\nnecessary to be able to\nrecommend, via\nsystem messages,
+        the\ninstallation of\napps available in Playtime\nthat match\nyour interests,
+        and calculate\nthe\nbonuses acquired as a result\nof your\nuse of the corresponding\napps.\n\n**Consent**\n\nBy
+        clicking on \u201CACCEPT\u201D, I give Plus Games SARL and adjoe GmbH my
+        consent to process my above mentioned personal data and transmit it to other
+        app providers so that I can use Playtime as described.\n\nl am aware that
+        a profile of\ninterests will\nbe generated using the above\ndata, and\ndepending
+        on the types of\napps I use,\nthis may contain particularly\nsensitive\npersonal
+        data (e.g.\nhealth-related data or\ndata about my sexual orientation, and
+        any other data in special categories\npursuant to Art. 9[1] GDPR). For\nthat\nreason
+        my consent also\napplies\nexplicitly to the processing of\nthis data.\n\nThe
+        full links to our <u><link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Privacy\nPolicy</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Terms
+        Of Use</link></u> and Adjoe's <u><link=\u201Chttps://adjoe.zone/legal/en/data_privacy.html\u201D>Data\nPrivacy
+        Statement</link></u> and <u><link=\u201Chttps://adjoe.zone/legal/en/terms_of_use.html\u201D>Terms\nand
+        Conditions of use</link></u>."
+      - "<b>Confidentialit\xE9 et conditions d'utilisation</b>\n\nNous vous informons
+        par la pr\xE9sente que\nAdjoe GmbH, traite les\ndonn\xE9es personnelles suivantes\ndans
+        le cadre de l'utilisation de\nPlaytime\_:\n\n<b>Applications install\xE9es
+        (y compris la\ndur\xE9e d'utilisation et l'historique d'utilisation)</b>\n\nLes
+        donn\xE9es seront connect\xE9es \xE0\nvotre appareil final via l'ID de l'appareil
+        et\nenvoy\xE9es,\ncrypt\xE9es, \xE0 nos serveurs.\nPour que\nles fournisseurs
+        d'applications puissent\nfinancer nos\nsuggestions d'applications, nous\ndevons
+        leur envoyer l'ID de l'appareil \xE0 des fins de facturation.\n\nLe traitement
+        des\ndonn\xE9es ci-dessus est\nn\xE9cessaire pour pouvoir\nrecommander, via\ndes\nmessages
+        syst\xE8me, l'installation\nd'applications\ndisponibles dans Playtime\nqui\ncorrespondent\n\xE0
+        vos int\xE9r\xEAts, et calculer\nles\nbonus acquis suite\n\xE0 votre\nutilisation
+        du\napplications correspondantes.\n\n<b>Consentement</b>\n\nEn cliquant sur
+        \xAB\_ACCEPTER\_\xBB, je donne mon consentement \xE0 adjoe GmbH pour traiter
+        mes donn\xE9es personnelles mentionn\xE9es ci-dessus et les transmettre \xE0
+        d'autres fournisseurs d'applications afin que je puisse utiliser Playtime
+        comme d\xE9crit.\n\nJe suis conscient qu'un profil d'int\xE9r\xEAts\nsera\ng\xE9n\xE9r\xE9
+        \xE0 l'aide des donn\xE9es\nci-dessus, et\nselon les types d'applications
+        que j'utilise,\ncela peut contenir des donn\xE9es personnelles particuli\xE8rement\nsensibles
+        (par exemple\ndes donn\xE9es relatives \xE0 la sant\xE9 ou\ndes donn\xE9es
+        sur mon orientation sexuelle, ainsi que toute autre donn\xE9e dans des cat\xE9gories\nsp\xE9ciales
+        conform\xE9ment \xE0 l'art. 9[1] du RGPD). Pour\ncette\nraison, mon consentement\ns'applique
+        \xE9galement\nexplicitement au traitement\nde ces donn\xE9es.\n\nLes liens
+        complets vers notre <u><link=\u201Chttps://plus-games.com/rewardee-privacy\u201D>Politique\nde\nconfidentialit\xE9</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Conditions\nd'utilisation</link></u>
+        et la <u><link=\u201Chttps://adjoe.zone/legal/en/data_privacy.html\u201D>D\xE9claration\nde\nconfidentialit\xE9\ndes\ndonn\xE9es</link></u>
+        et les <u><link=\u201Chttps://adjoe.zone/legal/en/terms_of_use.html\u201D>Conditions\ng\xE9n\xE9rales\nd'utilisation</link></u>
+        d'Adjoe."
+      - "<b>Privacidad y condiciones de uso</b>\n\nTe informamos de que\nAdjoe GmbH
+        procesa los siguientes\ndatos personales\nen el marco del\nuso de Playtime:\n\n<b>Aplicaciones
+        instaladas (incluida la\nduraci\xF3n de uso y el historial de uso)</b>\n\nLos
+        datos se conectar\xE1n a\ntu dispositivo final a trav\xE9s del ID del dispositivo
+        y se\nenviar\xE1n,\nencriptados, a nuestros servidores. Para\nque los proveedores
+        de\naplicaciones financien nuestras\nsugerencias de aplicaciones, debemos\nenviarles
+        el ID del dispositivo para fines de facturaci\xF3n.\n\nEl procesamiento de
+        los\ndatos anteriores es\nnecesario para poder\nrecomendar, a trav\xE9s de\nmensajes
+        del sistema, la\ninstalaci\xF3n de\naplicaciones disponibles en Playtime\nque
+        coincidan\ncon tus intereses, y calcular\nlas bonificaciones adquiridas como
+        resultado\nde tu\nuso de las\naplicaciones correspondientes.\n\n<b>Consentimiento</b>\n\nAl
+        hacer clic en \u201CACEPTAR\u201D, doy mi consentimiento a adjoe GmbH para
+        procesar mis datos personales mencionados anteriormente y transmitirlos a
+        otros proveedores de aplicaciones para que pueda utilizar Playtime como se
+        describe.\n\nSoy consciente de que se generar\xE1 un perfil\nde intereses\na
+        partir de los datos anteriores y,\nseg\xFAn el tipo de\naplicaciones que
+        utilice,\neste puede contener datos personales\nespecialmente\nsensibles
+        (p. ej.,\ndatos relacionados con la salud o\ndatos sobre mi orientaci\xF3n
+        sexual, as\xED como cualquier otro dato en categor\xEDas especiales\nde conformidad
+        con el art. 9[1] del RGPD). Por\nese\nmotivo, mi consentimiento tambi\xE9n
+        se aplica\nexpl\xEDcitamente al procesamiento\nde estos datos.\n\nLos enlaces
+        completos a nuestra <u><link=\u201Chttps://plus-games.com/rewardee-privacy\u201D>Pol\xEDtica\nde
+        Privacidad</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Condiciones\nde
+        Uso</link></u> y la <u><link=\u201Chttps://adjoe.zone/legal/es/privacy_data.html\u201D>Declaraci\xF3n\nde
+        Privacidad de Datos</link></u> y los <u><link=\u201Chttps://adjoe.zone/legal/es/terms_of_use.html\u201D>T\xE9rminos\ny
+        Condiciones de Uso</link></u> de Adjoe."
+      - "<b>Privacy and Terms of Usage</b>\n\nWe hereby inform you that\nAdjoe GmbH,
+        processes the following\npersonal data\nwithin the framework of the\nuse
+        of\nPlaytime:\n\n<b>Installed apps (including the\nuse duration and use history)</b>\n\nThe
+        data will be connected to\nyour end device via the device ID and\nsent,\nencrypted,
+        to our servers. In\norder for\napp providers to finance our\napp\nsuggestions,
+        we must send\nthem the\ndevice ID for billing purposes.\n\nThe processing
+        of the above\ndata is\nnecessary to be able to\nrecommend, via\nsystem messages,
+        the\ninstallation of\napps available in Playtime\nthat match\nyour interests,
+        and calculate\nthe\nbonuses acquired as a result\nof your\nuse of the corresponding\napps.\n\n<b>Consent</b>\n\nBy
+        clicking on \u201CACCEPT\u201D, I give adjoe GmbH my consent to process my
+        above mentioned personal data and transmit it to other app providers so that
+        I can use Playtime as described.\n\nl am aware that a profile of\ninterests
+        will\nbe generated using the above\ndata, and\ndepending on the types of\napps
+        I use,\nthis may contain particularly\nsensitive\npersonal data (e.g.\nhealth-related
+        data or\ndata about my sexual orientation, and any other data in special
+        categories\npursuant to Art. 9[1] GDPR). For\nthat\nreason my consent also\napplies\nexplicitly
+        to the processing of\nthis data.\n\nThe full links to our <u><link=\u201Chttps://plus-games.com/rewardee-privacy\u201D>Privacy\nPolicy</link></u>,<u>\n<link=\u201Chttps://plus-games.com/plus-test-terms\u201D>Terms
+        Of Use</link></u> and Adjoe's <u><link=\u201Chttps://adjoe.zone/legal/en/data_privacy.html\u201D>Data\nPrivacy
+        Statement</link></u> and <u><link=\u201Chttps://adjoe.zone/legal/en/terms_of_use.html\u201D>Terms\nand
+        Conditions of use</link></u>."
+      - "<b>Privacidade e condi\xE7\xF5es de uso</b>\n\nInformamos que a\nAdjoe GmbH
+        processa os seguintes\ndados pessoais\nno \xE2mbito do\nuso do Playtime:\n\n<b>Aplicativos
+        instalados (incluindo a\ndura\xE7\xE3o de uso e o hist\xF3rico de uso)</b>\n\nOs
+        dados ser\xE3o vinculados ao\nseu dispositivo final por meio do ID do dispositivo
+        e ser\xE3o\nenviados,\ncriptografados, aos nossos servidores. Para\nque os
+        provedores de\naplicativos financiem nossas\nsugest\xF5es de aplicativos,
+        precisamos\nenviar a eles o ID do dispositivo para fins de faturamento.\n\nO
+        processamento dos\ndados acima \xE9\nnecess\xE1rio para poder\nrecomendar,
+        por meio de\nmensagens do sistema, a\ninstala\xE7\xE3o de\naplicativos dispon\xEDveis
+        no Playtime\nque correspondam\naos seus interesses, e calcular\nos b\xF4nus
+        adquiridos como resultado\ndo seu\nuso dos\naplicativos correspondentes.\n\n<b>Consentimento</b>\n\nAo
+        clicar em \u201CACEITAR\u201D, dou meu consentimento \xE0 adjoe GmbH para
+        processar meus dados pessoais mencionados acima e transmiti-los a outros
+        provedores de aplicativos para que eu possa utilizar o Playtime conforme
+        descrito.\n\nEstou ciente de que ser\xE1 gerado um perfil\nde interesses\na
+        partir dos dados acima e,\ndependendo do tipo de\naplicativos que eu utilizar,\nisso
+        poder\xE1 conter dados pessoais\nespecialmente\nsens\xEDveis (por ex.,\ndados
+        relacionados \xE0 sa\xFAde ou\ndados sobre minha orienta\xE7\xE3o sexual,
+        assim como quaisquer outros dados em categorias especiais\nem conformidade
+        com o art. 9[1] do RGPD). Por\nesse\nmotivo, meu consentimento tamb\xE9m
+        se aplica\nexplicitamente ao processamento\ndesses dados.\n\nOs links completos
+        para nossa <u><link=\u201Chttps://plus-games.com/rewardee-privacy\u201D>Pol\xEDtica\nde
+        Privacidade</link></u>,<u>\n<link=\u201Chttps://plus-games.com/rewardee-terms\u201D>Condi\xE7\xF5es\nde
+        Uso</link></u> e a <u><link=\u201Chttps://adjoe.zone/legal/es/privacy_data.html\u201D>Declara\xE7\xE3o\nde
+        Privacidade de Dados</link></u> e os <u><link=\u201Chttps://adjoe.zone/legal/es/terms_of_use.html\u201D>Termos\ne
+        Condi\xE7\xF5es de Uso</link></u> da Adjoe."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Play games
+
+        and Earn money'
+      - "\u30B2\u30FC\u30E0\u3092\u30D7\u30EC\u30A4\u3057\u3066\n\u304A\u91D1\u3092\u7A3C\u3054\u3046"
+      - "\uAC8C\uC784\uC744 \uD50C\uB808\uC774\uD558\uACE0\n\uB3C8\uC744 \uBC8C\uC5B4\uBCF4\uC138\uC694"
+      - 'Play games
+
+        and Earn money'
+      - 'Play games
+
+        and Earn money'
+      - 'Play games
+
+        and Earn money'
+      - 'Play games
+
+        and Earn money'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/RejectButton
+      TermType: 0
+      Description: 
+      Languages:
+      - REJECT
+      - "\u62D2\u5426"
+      - "\uAC70\uBD80"
+      - REJETER
+      - RECHAZAR
+      - DECLINO
+      - RECUSAR
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/AcceptButton
+      TermType: 0
+      Description: 
+      Languages:
+      - ACCEPT
+      - "\u627F\u8A8D"
+      - "\uC218\uB77D"
+      - ACCEPTER
+      - ACEPTAR
+      - ACCETTARE
+      - ACEITAR
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - Sign In
+      - "\u30B5\u30A4\u30F3\u30A4\u30F3"
+      - "\uB85C\uADF8\uC778"
+      - Se connecter
+      - "Iniciar sesi\xF3n"
+      - Login
+      - "Iniciar sess\xE3o"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/TermsButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Terms and conditions of use
+      - "\u5229\u7528\u898F\u7D04"
+      - "\uC774\uC6A9 \uC57D\uAD00"
+      - "Conditions g\xE9n\xE9rales d'utilisation"
+      - "T\xE9rminos y condiciones de uso"
+      - Termini e condizioni d'uso
+      - "Termos e condi\xE7\xF5es de uso"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/ReferrerInput/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Have an Invitation Code?
+      - "\u62DB\u5F85\u30B3\u30FC\u30C9\u3092\u304A\u6301\u3061\u3067\u3059\u304B?"
+      - "\uCD08\uB300 \uCF54\uB4DC\uAC00 \uC788\uC2B5\uB2C8\uAE4C?"
+      - "Vous avez un code d'invitation\_?"
+      - "Tienes un c\xF3digo de invitaci\xF3n?"
+      - Hai un codice invito?
+      - "Voc\xEA tem um c\xF3digo de convite?"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SignIn/ReferrerInput/Placeholder
+      TermType: 0
+      Description: 
+      Languages:
+      - ENTER
+      - "\u5165\u529B"
+      - "\uC785\uB825"
+      - ENTRER
+      - ENTRAR
+      - ENTRA
+      - ENTRAR
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SelectBio/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - I AM
+      - "\u79C1\u306F"
+      - "\uB098\uB294"
+      - JE SUIS
+      - YO SOY
+      - SONO
+      - EU SOU
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SelectBio/MaleButton
+      TermType: 0
+      Description: 
+      Languages:
+      - MALE
+      - "\u7537\u6027"
+      - "\uB0A8\uC790"
+      - HOMME
+      - HOMBRE
+      - UOMO
+      - HOMEM
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SelectBio/FamaleButton
+      TermType: 0
+      Description: 
+      Languages:
+      - FEMALE
+      - "\u5973\u6027"
+      - "\uC5EC\uC790"
+      - FEMME
+      - MUJER
+      - DONNE
+      - MULHER
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SetAge/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - MY AGE IS
+      - "\u79C1\u306E\u5E74\u9F62\u306F"
+      - "\uB0B4 \uB098\uC774\uB294"
+      - MON AGE EST
+      - MI EDAD ES
+      - "LA MIA ET\xC0 \xC8"
+      - "MINHA IDADE \xC9"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: SetAge/Placeholder
+      TermType: 0
+      Description: 
+      Languages:
+      - CLICK HERE
+      - "\u3053\u3053\u3092\u30AF\u30EA\u30C3\u30AF"
+      - "\uC5EC\uAE30\uB97C \uD074\uB9AD\uD558\uC138\uC694"
+      - CLICKEZ ICI
+      - "HAZ CLIC AQU\xCD"
+      - CLICCA QUI
+      - CLIQUE AQUI
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/EarnButton
+      TermType: 0
+      Description: 
+      Languages:
+      - EARN MONEY
+      - EARN MONEY
+      - EARN MONEY
+      - EARN MONEY
+      - EARN MONEY
+      - EARN MONEY
+      - GANHE DINHEIRO
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/SupportButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Support
+      - "\u30B5\u30DD\u30FC\u30C8"
+      - "\uC9C0\uC6D0"
+      - Support
+      - Support
+      - Support
+      - Suporte
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Get up to <b>250% Cashback</b><br>on your first in-game purchase<br>in any
+        of adjoe games
+      - "\u521D\u56DE\u306E adjoe \u30B2\u30FC\u30E0\u5185\u8CFC\u5165\u3067<br><b>\u6700\u5927250%\u30AD\u30E3\u30C3\u30B7\u30E5\u30D0\u30C3\u30AF</b><br>\u3092\u7372\u5F97\u3057\u307E\u3057\u3087\u3046"
+      - "\uCCAB \uBC88\uC9F8 adjoe \uAC8C\uC784 \uB0B4 \uAD6C\uB9E4\uC5D0\uC11C<br><b>\uCD5C\uB300
+        250% \uCE90\uC2DC\uBC31</b><br>\uC744 \uBC1B\uC73C\uC138\uC694"
+      - "Obtenez jusqu'\xE0 <b>250\_% de Cashback</b><br>pour le premier achat <br>dans
+        l'un des jeux adjoe"
+      - "Obt\xE9n hasta un <b>250 % de reembolso</b><br>en tu primera compra<br>en
+        cualquiera de los juegos de adjoe"
+      - Ottieni fino al <b>250% di Cashback</b><br>sul tuo primo acquisto <br>in
+        uno qualsiasi dei giochi adjoe
+      - "Receba at\xE9 <b>250% de reembolso</b><br>na sua primeira compra<br>em qualquer
+        um dos jogos da adjoe"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Get {0} <sprite name="coin"> for a purchase in adjoe
+      - "adjoe \u3067\u306E\u8CFC\u5165\u3067 {0} <sprite name=\"coin\"> \u3092\u7372\u5F97"
+      - "adjoe \uC5D0\uC11C\uC758 \uAD6C\uB9E4\uB85C {0} <sprite name=\"coin\"> \uD68D\uB4DD"
+      - Obtenez {0} <sprite name="coin"> pour un achat dans adjoe
+      - "Obt\xE9n {0} <sprite name=\"coin\"> por una compra en adjoe"
+      - Ottieni {0} <sprite name="coin"> per un acquisto su adjoe
+      - Receba {0} <sprite name="coin"> por uma compra na adjoe
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/HowItWork/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - How does it work
+      - "\u4ED5\u7D44\u307F\u306F\u3053\u3046\u3067\u3059"
+      - "\uC791\uB3D9 \uBC29\uC2DD"
+      - "Comment \xE7a marche\_?"
+      - "C\xF3mo funciona?"
+      - Come funziona?
+      - Como funciona?
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/HowItWork/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "1. Just make any in-game purchase in any adjoe game you like\n2. Send us
+        a proof of purchase\n3. Purchase validation after 72 hours \n4. Get {0} coins"
+      - "1. \u597D\u304D\u306A adjoe \u30B2\u30FC\u30E0\u3067\u30B2\u30FC\u30E0\u5185\u8CFC\u5165\u3092\u884C\u3046\n2.
+        \u8CFC\u5165\u8A3C\u660E\u3092\u9001\u4FE1\u3059\u308B\n3. 72\u6642\u9593\u5F8C\u306B\u8CFC\u5165\u304C\u691C\u8A3C\u3055\u308C\u308B\n4.
+        {0} \u30B3\u30A4\u30F3\u3092\u53D7\u3051\u53D6\u308B"
+      - "1. \uC6D0\uD558\uB294 adjoe \uAC8C\uC784\uC5D0\uC11C \uC778\uAC8C\uC784
+        \uAD6C\uB9E4\uB97C \uC9C4\uD589\uD558\uC138\uC694\n2. \uAD6C\uB9E4 \uC99D\uBE59\uC744
+        \uBCF4\uB0B4\uC8FC\uC138\uC694\n3. 72\uC2DC\uAC04 \uD6C4 \uAD6C\uB9E4\uAC00
+        \uAC80\uC99D\uB429\uB2C8\uB2E4\n4. {0} \uCF54\uC778\uC744 \uBC1B\uC73C\uC138\uC694"
+      - "1. Effectuez simplement un achat dans le jeu adjoe de votre choix\n2. Envoyez-nous
+        une preuve d'achat\n3. Validation de l'achat apr\xE8s 72 heures\n4. Obtenez
+        {0} pi\xE8ces"
+      - "1. Simplemente realiza cualquier compra dentro del juego en cualquier juego
+        de adjoe que te guste\r\n2. Env\xEDanos un comprobante de compra\r\n3. Validaci\xF3n
+        de la compra despu\xE9s de 72 horas\r\n4. Obt\xE9n {0} monedas"
+      - '1. Effettua un acquisto in-game in qualsiasi gioco adjoe che ti piace
+
+        2.
+        Inviaci una prova di acquisto
+
+        3. Convalida dell''acquisto dopo
+        72 ore
+
+        4. Ottieni {0} monete'
+      - "1. Basta fazer qualquer compra dentro do jogo em qualquer jogo da adjoe
+        que voc\xEA gostar\n2. Envie-nos um comprovante de compra\n3. Valida\xE7\xE3o
+        da compra ap\xF3s 72 horas\n4. Receba {0} moedas"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/SendButton
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Send the reward request '
+      - "\u5831\u916C\u30EA\u30AF\u30A8\u30B9\u30C8\u3092\u9001\u4FE1"
+      - "\uBCF4\uC0C1 \uC694\uCCAD \uBCF4\uB0B4\uAE30"
+      - "Envoyer la demande de r\xE9compense"
+      - "Env\xEDa la solicitud de recompensa"
+      - Invia la richiesta di ricompensa
+      - "Envie a solicita\xE7\xE3o de recompensa"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: CashbackOffers/GamesButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the list of games
+      - "\u30B2\u30FC\u30E0\u4E00\u89A7\u3092\u958B\u304F"
+      - "\uAC8C\uC784 \uBAA9\uB85D \uC5F4\uAE30"
+      - Ouvrir la liste des jeux
+      - Abre la lista de juegos
+      - Apri l'elenco dei giochi
+      - Abra a lista de jogos
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Gifts/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Gifts
+      - "\u30AE\u30D5\u30C8"
+      - "\uC120\uBB3C"
+      - Cadeaux
+      - Regalos
+      - Regali
+      - Presentes
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Gifts/NextPayout
+      TermType: 0
+      Description: 
+      Languages:
+      - NEW GIFTS AFTER NEXT PAY OUT
+      - "\u6B21\u56DE\u306E\u652F\u6255\u3044\u5F8C\u306E\u65B0\u3057\u3044\u30AE\u30D5\u30C8"
+      - "\uB2E4\uC74C \uC9C0\uAE09 \uD6C4 \uC0C8\uB85C\uC6B4 \uC120\uBB3C"
+      - "NOUVEAUX CADEAUX APR\xC8S LE PROCHAIN \u200B\u200BPAIEMENT REUSSI"
+      - "NUEVOS REGALOS DESPU\xC9S DEL PR\xD3XIMO PAGO"
+      - NUOVI REGALI DOPO IL PROSSIMO PAGAMENTO
+      - "NOVOS PRESENTES AP\xD3S O PR\xD3XIMO PAGAMENTO"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Gifts/Popup/Coins
+      TermType: 0
+      Description: 
+      Languages:
+      - <b>Great! You get {0}</b> <sprite name="coin"><br>as a gift! Try other gifts!
+      - "<b>\u3084\u3063\u305F\uFF01 {0}</b> <sprite name=\"coin\"><br>\u3092\u30AE\u30D5\u30C8\u3068\u3057\u3066\u7372\u5F97\u3057\u307E\u3057\u305F\uFF01
+        \u4ED6\u306E\u30AE\u30D5\u30C8\u3082\u8A66\u3057\u3066\u307F\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "<b>\uC88B\uC2B5\uB2C8\uB2E4! {0}</b> <sprite name=\"coin\"><br>\uC744(\uB97C)
+        \uC120\uBB3C\uB85C \uBC1B\uC558\uC2B5\uB2C8\uB2E4! \uB2E4\uB978 \uC120\uBB3C\uB3C4
+        \uC2DC\uB3C4\uD574 \uBCF4\uC138\uC694!"
+      - "<b>Super\_! Vous obtenez {0}</b> <sprite name=\"coin\"><br>en cadeau\_!
+        Essayez d'autres cadeaux\_!"
+      - <b>Genial! Obtienes {0}</b> <sprite name="coin"><br>como regalo! Prueba otros
+        regalos!
+      - <b>Fantastico! Ricevi {0}</b> <sprite name="coin"><br>in regalo! Prova altri
+        regali!
+      - "<b>Incr\xEDvel! Voc\xEA recebe {0}</b> <sprite name=\"coin\"><br>como presente!
+        Experimente outros presentes!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Gifts/Popup/Percent
+      TermType: 0
+      Description: 
+      Languages:
+      - Great! You get -{0}% as a gift! Try other gifts!
+      - "\u3084\u3063\u305F\uFF01 -{0}% \u3092\u30AE\u30D5\u30C8\u3068\u3057\u3066\u7372\u5F97\u3057\u307E\u3057\u305F\uFF01
+        \u4ED6\u306E\u30AE\u30D5\u30C8\u3082\u8A66\u3057\u3066\u307F\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "\uC88B\uC2B5\uB2C8\uB2E4! -{0}% \uB97C \uC120\uBB3C\uB85C \uBC1B\uC558\uC2B5\uB2C8\uB2E4!
+        \uB2E4\uB978 \uC120\uBB3C\uB3C4 \uC2DC\uB3C4\uD574 \uBCF4\uC138\uC694!"
+      - "Super\_! Vous obtenez -{0}\_% en cadeau\_! Essayez d'autres cadeaux\_!"
+      - Genial! Obtienes -{0}% como regalo! Prueba otros regalos!
+      - Brillante! Ricevi -{0}% in regalo! Prova altri regali!
+      - "Incr\xEDvel! Voc\xEA recebe -{0}% como presente! Experimente outros presentes!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Gifts/Percent
+      TermType: 0
+      Description: 
+      Languages:
+      - <size=84>-{0}%</size><br>ON NEXT PAY OUT
+      - "<size=84>-{0}%</size><br>\u6B21\u56DE\u652F\u6255\u3044\u6642\u306B\u9069\u7528"
+      - "<size=84>-{0}%</size><br>\uB2E4\uC74C \uC9C0\uAE09 \uC2DC \uC801\uC6A9"
+      - "<size=84>-{0}\_%</size><br>APRES LE PROCHAIN \u200B\u200BPAIEMENT REUSSI"
+      - "<size=84>-{0}%</size><br>EN EL PR\xD3XIMO PAGO"
+      - <size=84>-{0}%</size><br>NEL PROSSIMO PAGAMENTO
+      - "<size=84>-{0}%</size><br>NO PR\xD3XIMO PAGAMENTO"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/FirstName
+      TermType: 0
+      Description: 
+      Languages:
+      - First Name
+      - "\u540D"
+      - "\uC774\uB984"
+      - "Pr\xE9nom"
+      - Nombre
+      - Nome
+      - Nome
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/LastName
+      TermType: 0
+      Description: 
+      Languages:
+      - Last Name
+      - "\u59D3"
+      - "\uC131"
+      - Nom
+      - Apellido
+      - Cognome
+      - Sobrenome
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/Phone
+      TermType: 0
+      Description: 
+      Languages:
+      - Phone number
+      - "\u96FB\u8A71\u756A\u53F7"
+      - "\uC804\uD654\uBC88\uD638"
+      - "Num\xE9ro de t\xE9l\xE9phone"
+      - "N\xFAmero de tel\xE9fono"
+      - Numero di telefono
+      - "N\xFAmero de telefone"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/SaveButton
+      TermType: 0
+      Description: 
+      Languages:
+      - SAVE
+      - "\u4FDD\u5B58"
+      - "\uC800\uC7A5"
+      - SAUVEGARDER
+      - GUARDAR
+      - MANTENERE
+      - SALVAR
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/DeleteButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Delete my account
+      - "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u524A\u9664"
+      - "\uB0B4 \uACC4\uC815 \uC0AD\uC81C"
+      - Supprimer mon compte
+      - Eliminar mi cuenta
+      - Elimina il mio account
+      - Excluir minha conta
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/InviteButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Invite friends
+      - "\u53CB\u9054\u3092\u62DB\u5F85\u3059\u308B"
+      - "\uCE5C\uAD6C \uCD08\uB300\uD558\uAE30"
+      - Inviter
+      - Invitar
+      - Invitare
+      - Convidar
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/DeleteAccountPopup/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Are you sure you want to delete your account forever?
+      - "\u30A2\u30AB\u30A6\u30F3\u30C8\u3092\u5B8C\u5168\u306B\u524A\u9664\u3057\u3066\u3082\u3088\u308D\u3057\u3044\u3067\u3059\u304B\uFF1F"
+      - "\uACC4\uC815\uC744 \uC601\uAD6C\uD788 \uC0AD\uC81C\uD558\uC2DC\uACA0\uC2B5\uB2C8\uAE4C?"
+      - "\xCAtes-vous s\xFBr de vouloir supprimer votre compte d\xE9finitivement
+        ?"
+      - "Est\xE1s seguro de que deseas eliminar tu cuenta para siempre?"
+      - Sei sicuro di voler eliminare il tuo account per sempre?
+      - Tem certeza de que deseja excluir sua conta para sempre?
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/DeleteAccountPopup/AcceptButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Yeah
+      - "\u306F\u3044"
+      - "\uC608"
+      - Oui
+      - Si
+      - "S\xEC"
+      - Sim
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/DeleteAccountPopup/DeclineButton
+      TermType: 0
+      Description: 
+      Languages:
+      - No
+      - "\u3044\u3044\u3048"
+      - "\uC544\uB2C8\uC694"
+      - Non
+      - No
+      - No
+      - "N\xE3o"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Payout/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Payout
+      - "\u652F\u6255\u3044"
+      - "\uC9C0\uAE09"
+      - Paiement
+      - Pago
+      - Paga
+      - Pagamento
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Payout/Disclaimers
+      TermType: 0
+      Description: 
+      Languages:
+      - "Disclaimers\n\nThe merchants represented are not sponsors of the rewards
+        or otherwise affiliated with us. The Logos and other identifying marks attached
+        are trademarks of and owned by each represented company and/or its affiliates.
+        Please visit each company\u2019s website for additional terms and conditions."
+      - "\u514D\u8CAC\u4E8B\u9805\r\n\r\n\u7D39\u4ECB\u3055\u308C\u3066\u3044\u308B\u5546\u5E97\u306F\u7279\u5178\u306E\u30B9\u30DD\u30F3\u30B5\u30FC\u3067\u306F\u306A\u304F\u3001\u5F53\u793E\u3068\u63D0\u643A\u95A2\u4FC2\u306B\u3082\u3042\u308A\u307E\u305B\u3093\u3002\u6DFB\u4ED8\u3055\u308C\u3066\u3044\u308B\u30ED\u30B4\u304A\u3088\u3073\u305D\u306E\u4ED6\u306E\u8B58\u5225\u30DE\u30FC\u30AF\u306F\u3001\u7D39\u4ECB\u3055\u308C\u3066\u3044\u308B\u5404\u4F01\u696D\u304A\u3088\u3073/\u307E\u305F\u306F\u305D\u306E\u95A2\u9023\u4F1A\u793E\u306E\u5546\u6A19\u3067\u3042\u308A\u3001\u6240\u6709\u3055\u308C\u3066\u3044\u307E\u3059\u3002\u8FFD\u52A0\u306E\u5229\u7528\u898F\u7D04\u306B\u3064\u3044\u3066\u306F\u3001\u5404\u4F01\u696D\u306E
+        Web \u30B5\u30A4\u30C8\u3092\u3054\u89A7\u304F\u3060\u3055\u3044\u3002"
+      - "\uBA74\uCC45 \uC870\uD56D\n\n\uD45C\uC2DC\uB41C \uC0C1\uC778\uC740 \uBCF4\uC0C1\uC758
+        \uC2A4\uD3F0\uC11C\uAC00 \uC544\uB2C8\uBA70 \uB2E4\uB978 \uBC29\uC2DD\uC73C\uB85C
+        \uB2F9\uC0AC\uC640 \uC81C\uD734\uD558\uC9C0 \uC54A\uC558\uC2B5\uB2C8\uB2E4.
+        \uCCA8\uBD80\uB41C \uB85C\uACE0 \uBC0F \uAE30\uD0C0 \uC2DD\uBCC4 \uD45C\uC2DC\uB294
+        \uAC01 \uD45C\uC2DC\uB41C \uD68C\uC0AC \uBC0F/\uB610\uB294 \uACC4\uC5F4\uC0AC\uC758
+        \uC0C1\uD45C\uC774\uBA70 \uC18C\uC720\uD569\uB2C8\uB2E4. \uCD94\uAC00 \uC57D\uAD00\uC740
+        \uAC01 \uD68C\uC0AC\uC758 \uC6F9\uC0AC\uC774\uD2B8\uB97C \uBC29\uBB38\uD558\uC138\uC694."
+      - "Disclaimers\n\nThe merchants represented are not sponsors of the rewards
+        or otherwise affiliated with us. The Logos and other identifying marks attached
+        are trademarks of and owned by each represented company and/or its affiliates.
+        Please visit each company\u2019s website for additional terms and conditions."
+      - "Disclaimers\n\nThe merchants represented are not sponsors of the rewards
+        or otherwise affiliated with us. The Logos and other identifying marks attached
+        are trademarks of and owned by each represented company and/or its affiliates.
+        Please visit each company\u2019s website for additional terms and conditions."
+      - "Disclaimer\n\nI commercianti rappresentati non sono sponsor dei premi o
+        altrimenti affiliati a noi. I loghi e gli altri segni identificativi allegati
+        sono marchi di fabbrica di e di propriet\xE0 di ciascuna societ\xE0 rappresentata
+        e/o delle sue affiliate. Ti invitiamo a visitare il sito web di ciascuna
+        azienda per ulteriori termini e condizioni."
+      - "Isen\xE7\xF5es de responsabilidade\n\nOs comerciantes representados n\xE3o
+        s\xE3o patrocinadores das recompensas nem s\xE3o afiliados a n\xF3s. Os logotipos
+        e outras marcas de identifica\xE7\xE3o anexadas s\xE3o marcas registradas
+        e pertencem a cada empresa representada e/ou \xE0s suas afiliadas. Visite
+        o site de cada empresa para consultar termos e condi\xE7\xF5es adicionais."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutHistory/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Your payout requests will appear here
+      - "\u3042\u306A\u305F\u306E\u652F\u6255\u3044\u30EA\u30AF\u30A8\u30B9\u30C8\u306F\u3053\u3053\u306B\u8868\u793A\u3055\u308C\u307E\u3059"
+      - "\uADC0\uD558\uC758 \uC9C0\uAE09 \uC694\uCCAD\uC774 \uC5EC\uAE30\uC5D0 \uD45C\uC2DC\uB429\uB2C8\uB2E4."
+      - "Vos demandes de paiement appara\xEEtront ici"
+      - "Sus solicitudes de pago aparecer\xE1n aqu\xED"
+      - Le tue richieste di pagamento appariranno qui
+      - "Suas solicita\xE7\xF5es de pagamento aparecer\xE3o aqui"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutHistory/DontReceiveButton
+      TermType: 0
+      Description: 
+      Languages:
+      - "It seems I didn\u2019t receive my reward"
+      - "\u5831\u916C\u3092\u53D7\u3051\u53D6\u3063\u3066\u3044\u306A\u3044\u3088\u3046\u3067\u3059"
+      - "\uBCF4\uC0C1\uC744 \uBC1B\uC9C0 \uBABB\uD55C \uAC83 \uAC19\uC2B5\uB2C8\uB2E4."
+      - "Il semble que j'ai pas re\xE7u ma r\xE9compense"
+      - "Parece que no recib\xED mi recompensa"
+      - Sembra che non abbia ricevuto la mia ricompensa
+      - "Parece que n\xE3o recebi minha recompensa"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutHistory/HowToReceive
+      TermType: 0
+      Description: 
+      Languages:
+      - "How to receive my reward?\nYou will receive an email from \u2018Your Digital
+        Reward\u2019 (or \"Tremendous\" for PayPal) in your mailbox. Simply click
+        on \u201CClaim your reward\u201D at the bottom of the email and enter your
+        account information."
+      - "\u5831\u916C\u3092\u53D7\u3051\u53D6\u308B\u306B\u306F\u3069\u3046\u3059\u308C\u3070\u3044\u3044\u3067\u3059\u304B?\n\u30E1\u30FC\u30EB\u30DC\u30C3\u30AF\u30B9\u306B\u300CYour
+        Digital Reward\u300D\u304B\u3089\u306E\u30E1\u30FC\u30EB\u304C\u5C4A\u304D\u307E\u3059\u3002\u30E1\u30FC\u30EB\u306E\u4E0B\u90E8\u306B\u3042\u308B\u300CClaim
+        Your Reward\u300D\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3001\u30A2\u30AB\u30A6\u30F3\u30C8\u60C5\u5831\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\uBCF4\uC0C1\uC744 \uBC1B\uC73C\uB824\uBA74 \uC5B4\uB5BB\uAC8C\uD574\uC57C\uD569\uB2C8\uAE4C?\n\uC0AC\uC11C\uD568\uC5D0
+        'Your Digital Reward'\uC758 \uC774\uBA54\uC77C\uC774 \uC804\uC1A1\uB429\uB2C8\uB2E4.
+        \uC774\uBA54\uC77C \uD558\uB2E8\uC758 'Claim Your Reward'\uB97C \uD074\uB9AD\uD558\uACE0
+        \uACC4\uC815 \uC815\uBCF4\uB97C \uC785\uB825\uD569\uB2C8\uB2E4."
+      - "<color=#3C62DD><font-weight=\"600\">Comment recevoir ma r\xE9compense\_?</font-weight></color>\nVous
+        avez re\xE7u un e-mail de \"Your Digital Reward\" (ou \"Tremendous\" pour
+        PayPal) dans votre bo\xEEte de r\xE9ception. Cliquez simplement sur \xABClaim
+        Your Reward\xBB au bas de l'e-mail et saisissez les informations de votre
+        compte."
+      - "<color=#3C62DD><font-weight=\"600\">C\xF3mo recibir mi recompensa?</font-weight></color>\nRecibi\xF3
+        un correo electr\xF3nico de \"Your Digital Reward\" (o \"Tremendous\" para
+        PayPal) en su casilla de correo. Simplemente haga clic en \"Claim Your Reward\"
+        en la parte inferior del correo electr\xF3nico e ingrese la informaci\xF3n
+        de su cuenta."
+      - '<color=#3C62DD><font-weight="600">Come ricevo il mio premio?</font-weight></color>
+
+        Hai
+        ricevuto un''e-mail da "Your Digital Reward" (o "Tremendous" per PayPal)
+        nella tua casella di posta. Basta fare clic su "Claim Your Reward" nella
+        parte inferiore dell''e-mail e inserire le informazioni del tuo account.'
+      - "<color=#3C62DD><font-weight=\"600\">Como receber minha recompensa?</font-weight></color>\nVoc\xEA
+        recebeu um e-mail de \"Your Digital Reward\" (ou \"Tremendous\" para PayPal)
+        na sua caixa de entrada. Basta clicar em \"Claim Your Reward\" na parte inferior
+        do e-mail e inserir as informa\xE7\xF5es da sua conta."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutHistorySlot/Request
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Request:'
+      - "\u30EA\u30AF\u30A8\u30B9\u30C8:"
+      - "\uC694\uCCAD:"
+      - 'Demande:'
+      - 'Pedido:'
+      - 'Ordine:'
+      - 'Pedido:'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutStatus/Pending
+      TermType: 0
+      Description: 
+      Languages:
+      - Pending
+      - "\u4FDD\u7559\u4E2D"
+      - "\uB300\uAE30\uC911"
+      - Traitement
+      - Procesando
+      - Elaborazione
+      - Processando
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutStatus/Processed/Paypal
+      TermType: 0
+      Description: 
+      Languages:
+      - Sent
+      - "\u9001\u4FE1\u6E08\u307F"
+      - "\uC804\uC1A1\uB41C"
+      - "Envoy\xE9"
+      - Enviado
+      - Inviata
+      - Enviado
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutStatus/Processed
+      TermType: 0
+      Description: 
+      Languages:
+      - Email sent
+      - "\u30E1\u30FC\u30EB\u304C\u9001\u4FE1\u3055\u308C\u307E\u3057\u305F"
+      - "\uC774\uBA54\uC77C \uC804\uC1A1"
+      - Email sent
+      - Email sent
+      - Email sent
+      - Email enviado
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutStatus/Declined
+      TermType: 0
+      Description: 
+      Languages:
+      - Declined
+      - "\u62D2\u5426\u3055\u308C\u307E\u3057\u305F"
+      - "\uAC70\uBD80"
+      - "Refus\xE9"
+      - Rechazado
+      - Rifiutato
+      - Rejeitado
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutStatus/Declined/Limit
+      TermType: 0
+      Description: 
+      Languages:
+      - Limit
+      - Limit
+      - Limit
+      - Limit
+      - Limit
+      - Limit
+      - Limite
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Common/Continue
+      TermType: 0
+      Description: 
+      Languages:
+      - Continue
+      - "\u7D9A\u884C"
+      - "\uACC4\uC18D"
+      - Continuer
+      - Continuar
+      - Continuare
+      - Continuar
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - ENTER YOUR EMAIL ...
+      - "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044..."
+      - "\uC774\uBA54\uC77C\uC744 \uC785\uB825\uD558\uC138\uC694 ..."
+      - ENTREZ VOTRE EMAIL ...
+      - "INGRESA TU CORREO ELECTR\xD3NICO..."
+      - INSERISCI LA TUA E-MAIL...
+      - DIGITE SEU E-MAIL...
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "You will receive an email from \u2018Your Digital Reward\u2019 in your inbox.
+        \nIn order to receive your gift card click on \u2018Claim Your Reward\u2019.\nDon\u2019t
+        forget to check your Spam folder."
+      - "\u3042\u306A\u305F\u306E\u53D7\u4FE1\u7BB1\u306B\u300CYour Digital Reward\u300D\u304B\u3089\u306E\u30E1\u30FC\u30EB\u304C\u5C4A\u304D\u307E\u3059\u3002\n\u30AE\u30D5\u30C8\u30AB\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u308B\u306B\u306F\u3001\u300CClaim
+        Your Reward\u300D\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044\u3002\n\u30B9\u30D1\u30E0\u30D5\u30A9\u30EB\u30C0\u3082\u5FD8\u308C\u305A\u306B\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\uBC1B\uC740 \uD3B8\uC9C0\uD568\uC5D0\uC11C '\uB514\uC9C0\uD138 \uBCF4\uC0C1'
+        \uC774\uBA54\uC77C\uC744 \uBC1B\uAC8C \uB429\uB2C8\uB2E4.\n\uAE30\uD504\uD2B8
+        \uCE74\uB4DC\uB97C \uBC1B\uC73C\uB824\uBA74 '\uBCF4\uC0C1 \uCCAD\uAD6C'\uB97C
+        \uD074\uB9AD\uD558\uC138\uC694.\n\uC2A4\uD338 \uD3F4\uB354\uB97C \uD655\uC778\uD558\uB294
+        \uAC83\uC744 \uC78A\uC9C0 \uB9C8\uC138\uC694."
+      - "You will recieve an email from \u2018Your Digital Reward\u2019 in your inbox.
+        \nIn order to receive your gift card click on \u2018Claim Your Reward\u2019.\nDon\u2019t
+        forget to check your Spam folder."
+      - "You will recieve an email from \u2018Your Digital Reward\u2019 in your inbox.
+        \nIn order to receive your gift card click on \u2018Claim Your Reward\u2019.\nDon\u2019t
+        forget to check your Spam folder."
+      - 'Riceverai un''email da "Il tuo premio digitale" nella tua casella di posta.
+
+        Per
+        ricevere la tua carta regalo, clicca su "Richiedi il tuo premio".
+
+        Non
+        dimenticare di controllare la cartella Spam.'
+      - "Voc\xEA receber\xE1 um e-mail de \u2018Your Digital Reward\u2019 na sua
+        caixa de entrada. \nPara receber seu cart\xE3o-presente, clique em \u2018Claim
+        Your Reward\u2019.\nN\xE3o se esque\xE7a de verificar sua pasta de Spam."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Placeholder
+      TermType: 0
+      Description: 
+      Languages:
+      - ENTER YOUR EMAIL ...
+      - "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044..."
+      - "\uC774\uBA54\uC77C\uC744 \uC785\uB825\uD558\uC138\uC694..."
+      - ENTREZ VOTRE EMAIL ...
+      - "INGRESA TU CORREO ELECTR\xD3NICO..."
+      - INSERISCI LA TUA E-MAIL...
+      - DIGITE SEU E-MAIL...
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/SendButton
+      TermType: 0
+      Description: 
+      Languages:
+      - SEND
+      - "\u9001\u4FE1"
+      - "\uBD80\uCE58\uB2E4"
+      - ENVOYER
+      - ENVIA
+      - INVIARE
+      - ENVIAR
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Desclaimer
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Reward delivery time: instant'
+      - "\u5831\u916C\u306E\u914D\u9001\u6642\u9593\uFF1A\u5373\u6642"
+      - "\uB9AC\uC6CC\uB4DC \uBC30\uC1A1 \uC2DC\uAC04: \uC989\uC2DC"
+      - "D\xE9lai de livraison de la r\xE9compense : instantan\xE9"
+      - 'Tiempo de entrega de la recompensa: instantaneo'
+      - 'Tiempo de entrega de la recompensa: instantaneo'
+      - "Tempo de entrega da recompensa: instant\xE2neo"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Error1
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter an address ending with .com
+      - "\u300C.com\u300D\u3067\u7D42\u308F\u308B\u30A2\u30C9\u30EC\u30B9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - ".com\uC73C\uB85C \uB05D\uB098\uB294 \uC8FC\uC18C\uB97C \uC785\uB825\uD558\uC138\uC694."
+      - Veuillez saisir une adresse se terminant par .com
+      - "Por favor, introduce una direcci\xF3n que termine en .com"
+      - Inserisci un indirizzo che termini con .com
+      - "Por favor, insira um endere\xE7o que termine em .com"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Error2
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter an address with @gmail.com
+      - "@gmail.com \u3092\u542B\u3080\u30A2\u30C9\u30EC\u30B9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "@gmail.com\uC774 \uD3EC\uD568\uB41C \uC8FC\uC18C\uB97C \uC785\uB825\uD558\uC138\uC694."
+      - Veuillez saisir une adresse avec @gmail.com
+      - "Por favor, introduce una direcci\xF3n que contenga @gmail.com"
+      - Inserisci un indirizzo con @gmail.com
+      - "Por favor, insira um endere\xE7o que contenha @gmail.com"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/Error3
+      TermType: 0
+      Description: 
+      Languages:
+      - Please enter a shorter address
+      - "\u3082\u3063\u3068\u77ED\u3044\u30A2\u30C9\u30EC\u30B9\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\uB354 \uC9E7\uC740 \uC8FC\uC18C\uB97C \uC785\uB825\uD558\uC138\uC694."
+      - Veuillez saisir une adresse plus courte
+      - "Por favor, introduce una direcci\xF3n m\xE1s corta"
+      - "Inserisci un indirizzo pi\xF9 corto"
+      - "Por favor, insira um endere\xE7o mais curto"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PayoutWindow/DesclaimerPaypal
+      TermType: 0
+      Description: 
+      Languages:
+      - "You <b>promptly</b> receive an <b>email from Tremendous</b> with a link
+        to confirm your PayPal address and receive your reward. Don\u2019t forget
+        to check <b>your inbox and Spam</b> folder.\n\nDelivery time: instant"
+      - "<b>\u8FC5\u901F\u306B</b> <b>Tremendous\u304B\u3089\u306E\u30E1\u30FC\u30EB</b>
+        \u3092\u53D7\u3051\u53D6\u308A\u3001PayPal\u30A2\u30C9\u30EC\u30B9\u3092\u78BA\u8A8D\u3057\u3066\u30EA\u30EF\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u308B\u305F\u3081\u306E\u30EA\u30F3\u30AF\u304C\u5C4A\u304D\u307E\u3059\u3002 
+        \n<b>\u53D7\u4FE1\u30C8\u30EC\u30A4\u3068\u8FF7\u60D1\u30E1\u30FC\u30EB</b>
+        \u30D5\u30A9\u30EB\u30C0\u3092\u5FD8\u308C\u305A\u306B\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044\u3002 
+        \n\n\u914D\u4FE1\u6642\u9593\uFF1A\u5373\u6642"
+      - "<b>\uC989\uC2DC</b> <b>Tremendous\uB85C\uBD80\uD130 \uC774\uBA54\uC77C</b>\uC744
+        \uBC1B\uC544 PayPal \uC8FC\uC18C\uB97C \uD655\uC778\uD558\uACE0 \uB9AC\uC6CC\uB4DC\uB97C
+        \uBC1B\uC744 \uC218 \uC788\uB294 \uB9C1\uD06C\uAC00 \uC804\uC1A1\uB429\uB2C8\uB2E4. 
+        \r\n<b>\uBC1B\uC740\uD3B8\uC9C0\uD568\uACFC \uC2A4\uD338\uD568</b>\uC744
+        \uAF2D \uD655\uC778\uD558\uC138\uC694.  \r\n\r\n\uBC30\uC1A1 \uC2DC\uAC04:
+        \uC989\uC2DC"
+      - "Vous recevrez <b>imm\xE9diatement</b> un <b>mail</b> de <b>Tremendous</b>
+        contenant <b>un lien pour confirmer</b> votre adresse PayPal et recevoir
+        votre r\xE9compense. N'oubliez pas de v\xE9rifier votre <b>bo\xEEte de r\xE9ception
+        et vos spams</b>.\n\nD\xE9lai de livraison\_: imm\xE9diat."
+      - "Recibir\xE1s inmediatamente un <b>correo electr\xF3nico</b> de <b>Tremendous</b>
+        con un enlace para confirmar tu direcci\xF3n de PayPal y recibir tu recompensa.
+        No olvides revisar tu bandeja de entrada y la <b>carpeta de correo no deseado</b>.\n\nTiempo
+        de entrega: instantaneo"
+      - 'Riceverai <b>immediatamente</b> un''<b>email da Tremendous</b> con un link
+        per confermare il tuo indirizzo PayPal e ricevere il tuo premio. Non dimenticare
+        di controllare la <b>posta in arrivo</b> e la cartella Spam.
+
+
+        Tempi
+        di consegna: immediati'
+      - "Voc\xEA receber\xE1 imediatamente um <b>e-mail</b> da <b>Tremendous</b>
+        com um link para confirmar seu endere\xE7o do PayPal e receber sua recompensa.
+        N\xE3o se esque\xE7a de verificar sua caixa de entrada e a <b>pasta de spam</b>.\n\nTempo
+        de entrega: instant\xE2neo"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/AccessRestricted
+      TermType: 0
+      Description: 
+      Languages:
+      - Access Restricted. Please send your user ID to reward@plus-games.com
+      - "\u30A2\u30AF\u30BB\u30B9\u5236\u9650\u304C\u3042\u308A\u307E\u3059\u3002ID
+        \u3092 reward@plus-games.com \u307E\u3067\u9001\u4FE1\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uC561\uC138\uC2A4\uAC00 \uC81C\uD55C\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC0AC\uC6A9\uC790
+        ID\uB97C reward@plus-games.com\uC73C\uB85C \uBCF4\uB0B4\uC8FC\uC138\uC694"
+      - "Acc\xE8s restreint. Veuillez envoyer votre identifiant \xE0 l'adresse suivante\_:
+        pyotr@plus-games.com"
+      - "Acceso restringido. Env\xEDa tu User ID a pyotr@plus-games.com"
+      - 
+      - Acesso restrito. Envie seu User ID para pyotr@plus-games.com
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/NotEnoughCoins
+      TermType: 0
+      Description: 
+      Languages:
+      - There are not enough coins for this pay out
+      - "\u3053\u306E\u652F\u6255\u3044\u306B\u306F\u30B3\u30A4\u30F3\u304C\u8DB3\u308A\u307E\u305B\u3093"
+      - "\uC774 \uC9C0\uAE09\uC5D0 \uCDA9\uBD84\uD55C \uCF54\uC778\uC774 \uC5C6\uC2B5\uB2C8\uB2E4."
+      - Il n'y a pas assez de coins pour ce paiement
+      - No hay suficientes monedas para este pago
+      - 
+      - "N\xE3o h\xE1 moedas suficientes para este pagamento"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/SendRewardRequest/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - <b>Get your reward</b><color=white><br><br>Send us a proof of purchase to</color>
+      - "<b>\u7279\u5178\u3092\u53D7\u3051\u53D6\u308B</b><color=white><br><br>\u8CFC\u5165\u8A3C\u660E\u3092\u3053\u3061\u3089\u307E\u3067\u304A\u9001\u308A\u304F\u3060\u3055\u3044</color>"
+      - "<b>\uBCF4\uC0C1 \uBC1B\uAE30</b><color=white><br><br>\uAD6C\uB9E4 \uC99D\uBE59\uC744
+        \uB2E4\uC74C \uC8FC\uC18C\uB85C \uBCF4\uB0B4\uC8FC\uC138\uC694</color>"
+      - "<b>Obtenez votre r\xE9compense</b><color=white><br><br>Envoyez-nous une
+        preuve d'achat \xE0</color>"
+      - "<b>Obt\xE9n tu recompensa</b><color=white><br><br>Env\xEDanos el comprobante
+        de compra a</color>"
+      - 
+      - <b>Receba sua recompensa</b><color=white><br><br>Envie-nos o comprovante
+        de compra para</color>
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/SendRewardRequest/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - email address copied
+      - "\u30E1\u30FC\u30EB\u30A2\u30C9\u30EC\u30B9\u3092\u30B3\u30D4\u30FC\u3057\u307E\u3057\u305F"
+      - "\uC774\uBA54\uC77C \uC8FC\uC18C\uAC00 \uBCF5\uC0AC\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
+      - "adresse e-mail copi\xE9e"
+      - "direcci\xF3n de correo electr\xF3nico copiada"
+      - 
+      - "endere\xE7o de e-mail copiado"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutSuccess/Paypal
+      TermType: 0
+      Description: 
+      Languages:
+      - Your payout request has been sent. The funds will be credited directly to
+        your PayPal account instantly, usually within one minute.
+      - "\u652F\u6255\u3044\u30EA\u30AF\u30A8\u30B9\u30C8\u304C\u9001\u4FE1\u3055\u308C\u307E\u3057\u305F\u3002\u8CC7\u91D1\u306F\u901A\u5E38
+        1 \u5206\u4EE5\u5185\u306B\u3001PayPal \u30A2\u30AB\u30A6\u30F3\u30C8\u306B\u76F4\u63A5\u5165\u91D1\u3055\u308C\u307E\u3059\u3002"
+      - "\uADC0\uD558\uC758 \uC9C0\uAE09 \uC694\uCCAD\uC774 \uC804\uC1A1\uB418\uC5C8\uC2B5\uB2C8\uB2E4.
+        \uC790\uAE08\uC740 \uBCF4\uD1B5 1\uBD84 \uC774\uB0B4\uC5D0 \uADC0\uD558\uC758
+        PayPal \uACC4\uC815\uC5D0 \uC989\uC2DC \uC9C1\uC811 \uC801\uB9BD\uB429\uB2C8\uB2E4."
+      - "Votre demande de paiement a \xE9t\xE9 envoy\xE9e. Les fonds seront cr\xE9dit\xE9s
+        directement sur votre compte PayPal instantan\xE9ment, g\xE9n\xE9ralement
+        en une minute."
+      - "Tu solicitud de pago ha sido enviada. Los fondos se acreditar\xE1n directamente
+        a tu cuenta de PayPal al instante, generalmente en un minuto."
+      - "La tua richiesta di pagamento \xE8 stata inviata. I fondi verranno accreditati
+        direttamente sul tuo conto PayPal in modo immediato, di solito entro un minuto."
+      - "Sua solicita\xE7\xE3o de pagamento foi enviada. Os fundos ser\xE3o creditados
+        diretamente na sua conta do PayPal instantaneamente, geralmente em um minuto."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutSuccess
+      TermType: 0
+      Description: 
+      Languages:
+      - Your payout request sent. Wait for an email with your reward. Don't forget
+        to claim the reward at the bottom of the email.
+      - "\u652F\u6255\u3044\u30EA\u30AF\u30A8\u30B9\u30C8\u304C\u9001\u4FE1\u3055\u308C\u307E\u3057\u305F\u3002\u5831\u916C\u304C\u8A18\u8F09\u3055\u308C\u305F\u30E1\u30FC\u30EB\u3092\u304A\u5F85\u3061\u304F\u3060\u3055\u3044\u3002\u30E1\u30FC\u30EB\u306E\u4E0B\u90E8\u306B\u3042\u308B\u5831\u916C\u306E\u53D7\u3051\u53D6\u308A\u3092\u5FD8\u308C\u306A\u3044\u3067\u304F\u3060\u3055\u3044\u3002"
+      - "\uC9C0\uAE09 \uC694\uCCAD\uC774 \uC804\uC1A1\uB418\uC5C8\uC2B5\uB2C8\uB2E4.
+        \uBCF4\uC0C1\uC774 \uB2F4\uAE34 \uC774\uBA54\uC77C\uC744 \uAE30\uB2E4\uB9AC\uC138\uC694.
+        \uC774\uBA54\uC77C \uD558\uB2E8\uC5D0\uC11C \uBCF4\uC0C1\uC744 \uCCAD\uAD6C\uD558\uB294
+        \uAC83\uC744 \uC78A\uC9C0 \uB9C8\uC138\uC694."
+      - "Votre demande de paiement a \xE9t\xE9 envoy\xE9e. Attendez de recevoir un
+        e-mail contenant votre r\xE9compense. N'oubliez pas de la r\xE9clamer en
+        bas de l'e-mail."
+      - "Tu solicitud de pago ha sido enviada. Espera un correo electr\xF3nico con
+        tu recompensa. No olvides reclamarla al final del correo."
+      - "La tua richiesta di pagamento \xE8 stata inviata. Attendi l\u2019email con
+        la tua ricompensa e non dimenticare di riscattarla tramite il link in fondo
+        all\u2019email."
+      - "Sua solicita\xE7\xE3o de pagamento foi enviada. Aguarde um e-mail com sua
+        recompensa. N\xE3o se esque\xE7a de resgat\xE1-la no final do e-mail."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutSuccess/TremendoesPaypal
+      TermType: 0
+      Description: 
+      Languages:
+      - "The Tremendous email with the payment link has been sent. Don\u2019t forget
+        to claim your reward using the link at the bottom of the email."
+      - "\u304A\u652F\u6255\u3044\u30EA\u30F3\u30AF\u304C\u542B\u307E\u308C\u305FTremendous\u306E\u30E1\u30FC\u30EB\u3092\u9001\u4FE1\u3057\u307E\u3057\u305F\u3002\u30E1\u30FC\u30EB\u4E0B\u90E8\u306E\u30EA\u30F3\u30AF\u304B\u3089\u5831\u916C\u3092\u304A\u53D7\u3051\u53D6\u308A\u304F\u3060\u3055\u3044\u3002"
+      - "\uACB0\uC81C \uB9C1\uD06C\uAC00 \uD3EC\uD568\uB41C Tremendous \uC774\uBA54\uC77C\uC774
+        \uBC1C\uC1A1\uB418\uC5C8\uC2B5\uB2C8\uB2E4. \uC774\uBA54\uC77C \uD558\uB2E8\uC758
+        \uB9C1\uD06C\uB97C \uD1B5\uD574 \uBCF4\uC0C1\uC744 \uAF2D \uC218\uB839\uD574
+        \uC8FC\uC138\uC694."
+      - "L\u2019email Tremendous contenant le lien de paiement a \xE9t\xE9 envoy\xE9.
+        N\u2019oubliez pas de r\xE9clamer votre r\xE9compense en utilisant le lien
+        en bas de l\u2019email."
+      - El correo de Tremendous con el enlace de pago ha sido enviado. No olvides
+        reclamar tu recompensa usando el enlace al final del correo.
+      - "L\u2019email di Tremendous con il link per il pagamento \xE8 stato inviato.
+        Non dimenticare di riscattare la tua ricompensa utilizzando il link in fondo
+        all\u2019email."
+      - "O e-mail da Tremendous com o link de pagamento foi enviado. N\xE3o se esque\xE7a
+        de resgatar sua recompensa usando o link no final do e-mail."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutError2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Daily limit
+
+        Please come back to redeem more tomorrow.'
+      - "1\u65E5\u306E\u4E0A\u9650\n\u660E\u65E5\u307E\u305F\u5F15\u304D\u63DB\u3048\u306B\u6765\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\uC77C\uC77C \uD55C\uB3C4\n\uB0B4\uC77C \uB2E4\uC2DC \uC640\uC11C \uB354
+        \uAD50\uD658\uD574 \uC8FC\uC138\uC694."
+      - "Limite quotidienne\nVeuillez revenir demain pour effectuer d\u2019autres
+        retraits."
+      - "L\xEDmite diario\nPor favor, vuelve manana para canjear m\xE1s."
+      - 'Limite giornaliero
+
+        Torna domani per riscattare di piu.'
+      - 
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutError3
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Due to high demand, we''ve reached our daily payout limit.
+
+        Please
+        try again soon, and we appreciate your understanding.'
+      - "\u591A\u304F\u306E\u3054\u5229\u7528\u306B\u3088\u308A\u3001\u672C\u65E5\u306E\u652F\u6255\u3044\u4E0A\u9650\u306B\u9054\u3057\u307E\u3057\u305F\u3002\n\u3057\u3070\u3089\u304F\u3057\u3066\u304B\u3089\u518D\u5EA6\u304A\u8A66\u3057\u304F\u3060\u3055\u3044\u3002\u3054\u7406\u89E3\u3042\u308A\u304C\u3068\u3046\u3054\u3056\u3044\u307E\u3059\u3002"
+      - "\uC694\uCCAD\uC774 \uB9CE\uC544 \uC77C\uC77C \uC9C0\uAE09 \uD55C\uB3C4\uC5D0
+        \uB3C4\uB2EC\uD588\uC2B5\uB2C8\uB2E4.\n\uC7A0\uC2DC \uD6C4 \uB2E4\uC2DC \uC2DC\uB3C4\uD574
+        \uC8FC\uC2DC\uAE30 \uBC14\uB77C\uBA70, \uC591\uD574\uD574 \uC8FC\uC154\uC11C
+        \uAC10\uC0AC\uD569\uB2C8\uB2E4."
+      - "En raison d\u2019une forte demande, nous avons atteint notre limite quotidienne
+        de paiements.\nVeuillez r\xE9essayer prochainement, et nous vous remercions
+        de votre compr\xE9hension."
+      - "Debido a la alta demanda, hemos alcanzado nuestro l\xEDmite diario de pagos.\nPor
+        favor, int\xE9ntalo de nuevo pronto y agradecemos tu comprensi\xF3n."
+      - "A causa dell\u2019elevata domanda, abbiamo raggiunto il nostro limite giornaliero
+        di pagamenti.\nRiprova presto, grazie per la comprensione."
+      - 
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutError5
+      TermType: 0
+      Description: 
+      Languages:
+      - 'A bit too much for the first day <sprite name="smile">
+
+        Just withdraw
+        smaller amount or come back tomorrow.'
+      - "\u521D\u65E5\u306B\u306F\u5C11\u3057\u591A\u3059\u304E\u307E\u3059 <sprite
+        name=\"smile\">\n\u5C11\u306A\u3044\u91D1\u984D\u3092\u5F15\u304D\u51FA\u3059\u304B\u3001\u660E\u65E5\u307E\u305F\u6765\u3066\u304F\u3060\u3055\u3044\u3002"
+      - "\uCCAB\uB0A0\uC5D0\uB294 \uC870\uAE08 \uB9CE\uC544\uC694 <sprite name=\"smile\">\n\uB354
+        \uC801\uC740 \uAE08\uC561\uC73C\uB85C \uCD9C\uAE08\uD558\uC2DC\uAC70\uB098
+        \uB0B4\uC77C \uB2E4\uC2DC \uC640 \uC8FC\uC138\uC694."
+      - 'Un peu trop pour un premier jour <sprite name="smile">
+
+        Veuillez
+        retirer un montant plus faible ou revenir demain.'
+      - "Un poco demasiado para el primer d\xEDa <sprite name=\"smile\">\nRetira
+        una cantidad menor o vuelve manana."
+      - "Un po\u2019 troppo per il primo giorno <sprite name=\"smile\">\nPreleva
+        un importo pi\xF9 piccolo o torna domani."
+      - 
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutError6
+      TermType: 0
+      Description: 
+      Languages:
+      - "That\u2019s enough for your first day <sprite name=\"smile\">\nCome back
+        tomorrow \u2014 new opportunities await."
+      - "\u521D\u65E5\u3068\u3057\u3066\u306F\u5341\u5206\u3067\u3059 <sprite name=\"smile\">\n\u660E\u65E5\u307E\u305F\u6765\u3066\u304F\u3060\u3055\u3044
+        \u2014 \u65B0\u3057\u3044\u30C1\u30E3\u30F3\u30B9\u304C\u5F85\u3063\u3066\u3044\u307E\u3059\u3002"
+      - "\uCCAB\uB0A0\uB85C\uB294 \uCDA9\uBD84\uD569\uB2C8\uB2E4 <sprite name=\"smile\">\n\uB0B4\uC77C
+        \uB2E4\uC2DC \uC624\uC138\uC694 \u2014 \uC0C8\uB85C\uC6B4 \uAE30\uD68C\uAC00
+        \uAE30\uB2E4\uB9AC\uACE0 \uC788\uC2B5\uB2C8\uB2E4."
+      - "C\u2019est suffisant pour votre premier jour <sprite name=\"smile\">\nRevenez
+        demain \u2014 de nouvelles opportunit\xE9s vous attendent."
+      - "Es suficiente para tu primer d\xEDa <sprite name=\"smile\">\nVuelve manana
+        \u2014 nuevas oportunidades te esperan."
+      - "\xC8 sufficiente per il tuo primo giorno <sprite name=\"smile\">\nTorna
+        domani \u2014 nuove opportunit\xE0 ti aspettano."
+      - 
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MoreGamesWindow/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - <b>Super!</b> You get the status of <b>Apprentice Game Tester</b> and unlock
+        <b>more games</b>!
+      - "<b>\u7D20\u6674\u3089\u3057\u3044\uFF01</b> <b>Apprentice Game Tester </b>\u306E\u30B9\u30C6\u30FC\u30BF\u30B9\u3092\u7372\u5F97\u3057\u3001<b>\u3055\u3089\u306B\u591A\u304F\u306E\u30B2\u30FC\u30E0</b>\u306E\u30ED\u30C3\u30AF\u3092\u89E3\u9664\u3057\u307E\u3059\u3002"
+      - "<b> \uD6CC\uB96D\uD569\uB2C8\uB2E4! </b><b>Apprentice Game Tester</b>\uC758
+        \uC0C1\uD0DC\uB97C \uD68D\uB4DD\uD558\uACE0 <b>\uB354 \uB9CE\uC740 \uAC8C\uC784</b>\uC758
+        \uC7A0\uAE08\uC744 \uD574\uC81C\uD569\uB2C8\uB2E4."
+      - "<b>Super\_!</b> Vous obtenez le statut d'<b>Apprentice Game Tester</b> et
+        d\xE9bloquez <b>plus de jeux</b>\_!"
+      - "<b>Genial!</b> Obtendr\xE1s el estatus de <b>Aprentice Game Tester</b> y
+        desbloquear\xE1s <b>m\xE1s juegos</b>!"
+      - <b>Super!</b> Ottieni lo status di <b>Apprentice Game Tester</b> e sblocchi
+        <b>altri giochi</b>!
+      - "<b>Incr\xEDvel!</b> Voc\xEA obter\xE1 o status de <b>Aprentice Game Tester</b>
+        e desbloquear\xE1 <b>mais jogos</b>!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MoreGamesWindow/Desc2
+      TermType: 0
+      Description: 
+      Languages:
+      - <b>Congrats!</b> You get the status of <b>Game Tester</b> and unlock even
+        <b>more games!</b>
+      - "<b>\u304A\u3081\u3067\u3068\u3046\u3054\u3056\u3044\u307E\u3059\uFF01</b>
+        <b>Game Tester </b>\u8CC7\u683C\u3092\u53D6\u5F97\u3057\u3001\u3055\u3089\u306B<b>\u3088\u308A\u591A\u304F\u306E\u30B2\u30FC\u30E0</b>\u3092\u30ED\u30C3\u30AF\u89E3\u9664\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "<b>\uCD95\uD558\uD569\uB2C8\uB2E4!</b> <b>Game Tester</b> \uC790\uACA9\uC744
+        \uC5BB\uACE0 \uB354\uC6B1 <b>\uB354 \uB9CE\uC740 \uAC8C\uC784</b>\uC744 \uC7A0\uAE08
+        \uD574\uC81C\uD558\uC138\uC694!"
+      - "<b>F\xE9licitations\_!</b> Vous obtenez le statut de <b>Game Tester</b>
+        et d\xE9bloquez encore <b>plus de jeux\_!</b>"
+      - "<b>Felicitaciones!</b Obtuviste el estatus de <b>Game Tester</b> y desbloqueaste
+        a\xFAn <b>m\xE1s juegos! </b>"
+      - <b>Congratulazioni!</b> Ottieni lo status di <b>Game Tester</b> e sblocchi
+        ancora <b>altri giochi!</b>
+      - "<b>Parab\xE9ns!</b> Voc\xEA obteve o status de <b>Game Tester</b> e desbloqueou
+        ainda <b>mais jogos! </b>"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MoreGamesWindow/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - Open
+      - "\u958B\u9928"
+      - "\uC5F4\uB2E4"
+      - Ouvrir
+      - Abrir
+      - Aprire
+      - Abrir
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/WelcomeBonus/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "<b>Welcome!</b> Get <b>$0.01</b> free\nbonus PayPal Payment<sprite name=\"money\">\n\nYou\u2019ll
+        receive it <b>instantly</b> <sprite name=\"rocket\">"
+      - "<b>\u3088\u3046\u3053\u305D\uFF01</b> <b>$0.01</b> \u306E\nAmazon\u30AE\u30D5\u30C8\u30AB\u30FC\u30C9\u30DC\u30FC\u30CA\u30B9\u3092\u7372\u5F97<sprite
+        name=\"money\">\n\n<b>\u5373\u6642\u306B</b> \u53D7\u3051\u53D6\u308C\u307E\u3059\n<sprite
+        name=\"rocket\">"
+      - "<b>\uD658\uC601\uD569\uB2C8\uB2E4!</b> <b>$0.01</b> \uBB34\uB8CC\n\uBCF4\uB108\uC2A4\uB97C
+        PayPal\uB85C \uBC1B\uC544\uBCF4\uC138\uC694<sprite name=\"money\">\n\n<b>\uC989\uC2DC</b>
+        \uC9C0\uAE09\uB429\uB2C8\uB2E4 <sprite name=\"rocket\">"
+      - "<b>Bienvenue !</b> Recevez <b>0,01 $</b> de bonus\ngratuit sur PayPal<sprite
+        name=\"money\">\n\nVous la recevrez <b>instantan\xE9ment</b>\n<sprite name=\"rocket\">"
+      - "<b>Bienvenido!</b> Recibe un bono gratis\nde <b>$0.01</b> en PayPal<sprite
+        name=\"money\">\n\nRecibir\xE1s <b>instant\xE1neamente</b>\n<nombre del duende=\"rocket\">"
+      - "<b>Benvenuto!</b> Ricevi <b>$0.01</b> di bonus \ngratuito su PayPal<sprite
+        name=\"money\">\n\nLa riceverai <b>immediatamente</b>\n<sprite name=\"rocket\">"
+      - "<b>Bem-vindo!</b> Receba um b\xF4nus gr\xE1tis de <b>US$ 0,01</b> no PayPal<sprite
+        name=\"money\">\n\nVoc\xEA o recebera <b>instantaneamente</b>\n<sprite name=\"rocket\">"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/Review/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Leave a review
+      - "\u30EC\u30D3\u30E5\u30FC\u3092\u304A\u9858\u3044\u3057\u307E\u3059"
+      - "\uB9AC\uBDF0\uB97C \uB0A8\uACA8\uC8FC\uC138\uC694"
+      - Laissez un avis
+      - Deja una resena
+      - Lascia una recensione
+      - "Deixe uma avalia\xE7\xE3o"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/Review/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Help us grow by leaving a quick review on our store page!
+      - "\u30B9\u30C8\u30A2\u30DA\u30FC\u30B8\u306B\u7C21\u5358\u306A\u30EC\u30D3\u30E5\u30FC\u3092\u66F8\u3044\u3066\u3001\u79C1\u305F\u3061\u3092\u5FDC\u63F4\u3057\u3066\u304F\u3060\u3055\u3044\uFF01"
+      - "\uC2A4\uD1A0\uC5B4 \uD398\uC774\uC9C0\uC5D0 \uBE60\uB978 \uB9AC\uBDF0\uB97C
+        \uB0A8\uACA8 \uC8FC\uC2DC\uBA74 \uC800\uD76C\uC5D0\uAC8C \uD070 \uB3C4\uC6C0\uC774
+        \uB429\uB2C8\uB2E4!"
+      - "Aidez-nous \xE0 grandir en laissant un petit avis sur notre page du store
+        !"
+      - Ayudanos a crecer dejando una resena rapida en nuestra pagina de la tienda!
+      - Aiutaci a crescere lasciando una recensione veloce sulla nostra pagina dello
+        store!
+      - "Ajude-nos a crescer deixando uma avalia\xE7\xE3o r\xE1pida na nossa p\xE1gina
+        da loja!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PaypalPayoutsDesclaimer
+      TermType: 0
+      Description: 
+      Languages:
+      - "<b>PayPal Payouts Info</b>\nDue to a technical issue, PayPal payouts are
+        sent <b>once per day</b>.\LYou'll receive an email from <b>Tremendous</b>
+        to <b>confirm your PayPal</b> address.\LCheck your inbox and spam!"
+      - "<b>PayPal \u306E\u304A\u652F\u6255\u3044\u60C5\u5831</b>\n\u6280\u8853\u7684\u306A\u554F\u984C\u306B\u3088\u308A\u3001PayPal
+        \u304B\u3089\u306E\u304A\u652F\u6255\u3044\u306F <b>1 \u65E5\u306B 1 \u56DE</b>
+        \u3057\u304B\u884C\u308F\u308C\u307E\u305B\u3093\u3002<b>Tremendous</b> \u304B\u3089\u3001<b>PayPal
+        \u30A2\u30C9\u30EC\u30B9\u306E\u78BA\u8A8D</b> \u306E\u305F\u3081\u306E\u30E1\u30FC\u30EB\u304C\u5C4A\u304D\u307E\u3059\u3002\u53D7\u4FE1\u30C8\u30EC\u30A4\u3068\u8FF7\u60D1\u30E1\u30FC\u30EB\u3092\u3054\u78BA\u8A8D\u304F\u3060\u3055\u3044\u3002"
+      - "<b>PayPal \uC9C0\uAE09 \uC815\uBCF4</b>\n\uAE30\uC220\uC801\uC778 \uBB38\uC81C\uB85C
+        \uC778\uD574 PayPal \uC9C0\uAE09\uC740 <b>\uD558\uB8E8\uC5D0 \uD55C \uBC88</b>
+        \uBC1C\uC1A1\uB429\uB2C8\uB2E4. <b>Tremendous</b>\uC5D0\uC11C <b>PayPal \uC8FC\uC18C
+        \uD655\uC778</b>\uC744 \uC704\uD55C \uC774\uBA54\uC77C\uC744 \uBCF4\uB0B4\uB4DC\uB9BD\uB2C8\uB2E4.
+        \uBC1B\uC740 \uD3B8\uC9C0\uD568\uACFC \uC2A4\uD338\uD568\uC744 \uD655\uC778\uD574
+        \uC8FC\uC138\uC694!"
+      - "<b>Informations sur les paiements PayPal</b>\nEn raison d'un probl\xE8me
+        technique, les paiements PayPal sont envoy\xE9s <b>une fois par jour</b>.
+        Vous recevrez un e-mail de <b>Tremendous</b> pour <b>confirmer votre adresse
+        PayPal</b>. V\xE9rifiez votre bo\xEEte mail et vos spams\_!"
+      - "<b>Informaci\xF3n sobre pagos por PayPal</b>\nDebido a un problema t\xE9cnico,
+        los pagos por PayPal se env\xEDan <b>una vez al d\xEDa</b>. Recibir\xE1s
+        un correo electr\xF3nico de <b>Tremendous</b> para <b>confirmar tu direcci\xF3n
+        de PayPal</b>. \xA1Revisa tu bandeja de entrada y la carpeta de spam!"
+      - '<b>Informazioni sui pagamenti PayPal</b>
+
+        A causa di un problema
+        tecnico, i pagamenti PayPal vengono inviati <b>una volta al giorno</b>. Riceverai
+        un''email da <b>Tremendous</b> per <b>confermare il tuo indirizzo PayPal</b>.
+        Controlla la posta in arrivo e la posta indesiderata!'
+      - "<b>Informa\xE7\xF5es sobre pagamentos por PayPal</b>\nDevido a um problema
+        t\xE9cnico, os pagamentos por PayPal s\xE3o enviados <b>uma vez por dia</b>.
+        Voc\xEA receber\xE1 um e-mail da <b>Tremendous</b> para <b>confirmar seu
+        endere\xE7o do PayPal</b>. Verifique sua caixa de entrada e a pasta de spam!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/NextButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Next
+      - "\u6B21\u3078"
+      - "\uB2E4\uC74C"
+      - Suivant
+      - Siguiente
+      - Seguente
+      - "Pr\xF3ximo"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/StartButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Start
+      - "\u958B\u59CB"
+      - "\uC2DC\uC791"
+      - "D\xE9marrer"
+      - para empezar
+      - per cominciare
+      - "para come\xE7ar"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen1/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Invite friends<br>& eaRN up to <b>20%</b> of their coins
+      - "\u53CB\u9054\u3092\u62DB\u5F85<br>& \u30B3\u30A4\u30F3\u306E<b>\u6700\u592720%</b>\u3092\u7372\u5F97"
+      - "\uCE5C\uAD6C\uB97C \uCD08\uB300\uD558\uC138\uC694<br>& \uADF8\uB4E4\uC758
+        \uCF54\uC778\uC758 <b>\uCD5C\uB300 20%</b>\uB97C \uBC1B\uC73C\uC138\uC694"
+      - "Invitez des amis<br>et gagnez jusqu'\xE0 <b>20\_%</b> de leurs pi\xE8ces"
+      - Invita a tus amigos<br>y gana hasta el <b>20%</b> de sus monedas
+      - Invita i tuoi amici e guadagna fino al 20% delle loro monete
+      - "Convide seus amigos<br>e ganhe at\xE9 <b>20%</b> das moedas deles"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen2/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - YOU INVITE YOUR<br>FRIEND ALEX
+      - "\u3042\u306A\u305F\u304C<br>\u53CB\u9054\u30A2\u30EC\u30C3\u30AF\u30B9\u3092\u62DB\u5F85"
+      - "\uB2F9\uC2E0\uC774<br>\uCE5C\uAD6C \uC54C\uB809\uC2A4\uB97C \uCD08\uB300"
+      - VOUS INVITEZ VOTRE<br>AMI ALEX
+      - INVITAS A TU<br>AMIGO ALEX
+      - INVITI IL TUO AMICO ALEX
+      - "VOC\xCA CONVIDA SEU<br>AMIGO ALEX"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen2/Desc2
+      TermType: 0
+      Description: 
+      Languages:
+      - "WE PAY YOU<br><b>15%</b> OF ALEX\u2019S EARNS"
+      - "\u79C1\u305F\u3061\u306F\u3042\u306A\u305F\u306B<br>\u30A2\u30EC\u30C3\u30AF\u30B9\u306E\u7372\u5F97\u306E<b>15%</b>\u3092\u652F\u6255\u3044\u307E\u3059"
+      - "\uC6B0\uB9AC\uB294 \uB2F9\uC2E0\uC5D0\uAC8C<br>\uC54C\uB809\uC2A4 \uC218\uC775\uC758
+        <b>15%</b>\uB97C \uC9C0\uAE09\uD569\uB2C8\uB2E4"
+      - "NOUS VOUS PAYONS<br><b>15\_%</b> DES GAINS D'ALEX"
+      - TE PAGAMOS<br><b>15%</b> DE LAS GANANCIAS DE ALEX
+      - TI PAGHIAMO<br><b>15%</b> DEI PROFITTI DI ALEX
+      - "N\xD3S PAGAMOS A VOC\xCA<br><b>15%</b> DOS GANHOS DO ALEX"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen3/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - YOUR FRIEND ALEX<br>INVITES HIS FRIEND JOHN
+      - "\u3042\u306A\u305F\u306E\u53CB\u9054\u30A2\u30EC\u30C3\u30AF\u30B9\u304C<br>\u5F7C\u306E\u53CB\u9054\u30B8\u30E7\u30F3\u3092\u62DB\u5F85"
+      - "\uB2F9\uC2E0\uC758 \uCE5C\uAD6C \uC54C\uB809\uC2A4\uAC00<br>\uADF8\uC758
+        \uCE5C\uAD6C \uC874\uC744 \uCD08\uB300"
+      - VOTRE AMI ALEX<br>INVITE SON AMI JOHN
+      - TU AMIGO ALEX<br>INVITA A SU AMIGO JOHN
+      - IL TUO AMICO ALEX INVITA IL SUO AMICO JOHN
+      - SEU AMIGO ALEX<br>CONVIDA O AMIGO DELE JOHN
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen3/Desc2
+      TermType: 0
+      Description: 
+      Languages:
+      - "WE PAY YOU<br><b>15%</b> OF ALEX\u2019S EARNS<br><b>5%</b> OF JOHN\u2019S
+        EARNS"
+      - "\u79C1\u305F\u3061\u306F\u3042\u306A\u305F\u306B<br>\u30A2\u30EC\u30C3\u30AF\u30B9\u306E\u7372\u5F97\u306E<b>15%</b><br>\u30B8\u30E7\u30F3\u306E\u7372\u5F97\u306E<b>5%</b>\u3092\u652F\u6255\u3044\u307E\u3059"
+      - "\uC6B0\uB9AC\uB294 \uB2F9\uC2E0\uC5D0\uAC8C<br>\uC54C\uB809\uC2A4 \uC218\uC775\uC758
+        <b>15%</b><br>\uC874 \uC218\uC775\uC758 <b>5%</b>\uB97C \uC9C0\uAE09\uD569\uB2C8\uB2E4"
+      - "NOUS VOUS PAYONS<br><b>15\_%</b> DES GAINS D'ALEX<br><b>5\_%</b> DES GAINS
+        DE JOHN"
+      - TE PAGAMOS<br><b>15%</b> DE LAS GANANCIAS DE ALEX<br><b>5%</b> DE LAS GANANCIAS
+        DE JOHN
+      - TI PAGHIAMO<br><b>15%</b> DEI PROFITTI DI ALEX<br><b>5%</b> DEI PROFITTI
+        DI JOHN
+      - "N\xD3S PAGAMOS A VOC\xCA<br><b>15%</b> DOS GANHOS DO ALEX<br><b>5%</b> DOS
+        GANHOS DO JOHN"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerTutorial/Screen4/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - INVITE MORE FRIEND TO<br><b>EARN MORE MONEY</b>
+      - "\u3082\u3063\u3068\u591A\u304F\u306E\u53CB\u9054\u3092\u62DB\u5F85\u3057\u3066<br><b>\u3082\u3063\u3068\u7A3C\u3054\u3046</b>"
+      - "\uB354 \uB9CE\uC740 \uCE5C\uAD6C\uB97C \uCD08\uB300\uD574\uC11C<br><b>\uB354
+        \uB9CE\uC740 \uB3C8\uC744 \uBC8C\uC5B4\uC694</b>"
+      - INVITEZ PLUS D'AMIS POUR<br><b>GAGNER PLUS D'ARGENT</b>
+      - "INVITA A M\xC1S AMIGOS PARA<br><b>GANAR M\xC1S DINERO</b>"
+      - "INVITA PI\xD9 AMICI A<br><b>GUADAGNARE PI\xD9 SOLDI</b>"
+      - CONVIDE MAIS AMIGOS PARA<br><b>GANHAR MAIS DINHEIRO</b>
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Invite Friends
+      - "\u53CB\u9054\u3092\u62DB\u5F85"
+      - "\uCE5C\uAD6C \uCD08\uB300"
+      - Invitez des amis
+      - invitar amigos
+      - invitare gli amici
+      - convidar amigos
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You will get up to 20% of their coins
+
+        They get extra 20% on first
+        payout'
+      - "\u3042\u306A\u305F\u306F\u5F7C\u3089\u306E\u30B3\u30A4\u30F3\u306E\u6700\u592720%\u3092\u7372\u5F97\u3067\u304D\u307E\u3059\n\u5F7C\u3089\u306F\u521D\u56DE\u652F\u6255\u3044\u6642\u306B\u8FFD\u52A0\u306720%\u3092\u53D7\u3051\u53D6\u308A\u307E\u3059"
+      - "\uB2F9\uC2E0\uC740 \uADF8\uB4E4\uC758 \uCF54\uC778\uC758 \uCD5C\uB300 20%\uB97C
+        \uBC1B\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4\n\uADF8\uB4E4\uC740 \uCCAB \uBC88\uC9F8
+        \uC9C0\uAE09 \uC2DC \uCD94\uAC00\uB85C 20%\uB97C \uBC1B\uC2B5\uB2C8\uB2E4"
+      - "Vous recevrez jusqu'\xE0 20\_% de leurs pi\xE8ces\nIls recevront un suppl\xE9ment
+        20\_% sur le premier versement"
+      - "Recibir\xE1s hasta el 20% de sus monedas.\nRecibir\xE1n un 20% extra en
+        el primer pago"
+      - 'Riceverai fino al 20% delle loro monete.
+
+        Riceveranno un extra del
+        20% sul primo pagamento'
+      - "Voc\xEA receber\xE1 at\xE9 20% das moedas deles.\nEles receber\xE3o 20%
+        extra no primeiro pagamento"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/InviteButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Invite
+      - "\u62DB\u5F85"
+      - "\uCD08\uB300"
+      - Inviter
+      - Invitar
+      - Invitare
+      - Convidar
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/TransferButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Transfer
+      - "\u8EE2\u9001"
+      - "\uC774\uCCB4"
+      - "Transf\xE9rer"
+      - Transferir
+      - Trasferire
+      - Transferir
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/Stats
+      TermType: 0
+      Description: 
+      Languages:
+      - Total
+      - "\u5408\u8A08"
+      - "\uCD1D\uC561"
+      - Total
+      - Total
+      - Totale
+      - Total
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/TransferWindow/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Transfer
+      - "\u8EE2\u9001"
+      - "\uC774\uCCB4"
+      - "Transf\xE9rer"
+      - Transferir
+      - Trasferire
+      - Transferir
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/TransferWindow/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Transfer coins your earned with your friends to your Main Balance
+      - "\u53CB\u9054\u3068\u4E00\u7DD2\u306B\u7372\u5F97\u3057\u305F\u30B3\u30A4\u30F3\u3092\u30E1\u30A4\u30F3\u6B8B\u9AD8\u306B\u632F\u308A\u66FF\u3048\u307E\u3057\u3087\u3046"
+      - "\uCE5C\uAD6C\uC640 \uD568\uAED8 \uD68D\uB4DD\uD55C \uCF54\uC778\uC744 \uBA54\uC778
+        \uC794\uC561\uC73C\uB85C \uC774\uC804\uD558\uC138\uC694"
+      - "Transf\xE9rez les pi\xE8ces que vous avez gagn\xE9es avec vos amis sur votre
+        solde principal"
+      - Transfiere las monedas que ganaste con tus amigos a tu saldo principal
+      - Trasferisci le monete che hai guadagnato con i tuoi amici sul tuo saldo principale
+      - "Transfira as moedas que voc\xEA ganhou com seus amigos para o seu saldo
+        principal"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/InviteWindow/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Invite
+      - "\u62DB\u5F85"
+      - "\uCD08\uB300"
+      - Inviter
+      - Invitar
+      - Invitare
+      - Convidar
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/InviteWindow/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - 'You will get up to 20% of their coins
+
+        They get extra 20% on first
+        payout'
+      - "\u3042\u306A\u305F\u306F\u5F7C\u3089\u306E\u30B3\u30A4\u30F3\u306E\u6700\u592720%\u3092\u7372\u5F97\u3067\u304D\u307E\u3059\n\u5F7C\u3089\u306F\u521D\u56DE\u652F\u6255\u3044\u6642\u306B\u8FFD\u52A0\u306720%\u3092\u53D7\u3051\u53D6\u308A\u307E\u3059"
+      - "\uB2F9\uC2E0\uC740 \uADF8\uB4E4\uC758 \uCF54\uC778\uC758 \uCD5C\uB300 20%\uB97C
+        \uBC1B\uC744 \uC218 \uC788\uC2B5\uB2C8\uB2E4\n\uADF8\uB4E4\uC740 \uCCAB \uC9C0\uAE09
+        \uC2DC \uCD94\uAC00\uB85C 20%\uB97C \uBC1B\uC2B5\uB2C8\uB2E4"
+      - "Vous recevrez jusqu'\xE0 20\_% de leurs pi\xE8ces\nIls recevront 20\_% de
+        remise sur le premier peiement"
+      - "Recibir\xE1s hasta el 20% de sus monedas.\nRecibir\xE1n un 20% de descuento
+        en el primer pago"
+      - 'Riceverai fino al 20% delle loro monete.
+
+        Riceverai uno sconto del
+        20% sul tuo primo pagamento.'
+      - "Voc\xEA receber\xE1 at\xE9 20% das moedas deles.\nEles receber\xE3o 20%
+        de desconto no primeiro pagamento"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/InviteWindow/Desc2
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Or ask Friends to use your invitation code on first launch:'
+      - "\u307E\u305F\u306F\u53CB\u9054\u306B\u3001\u521D\u56DE\u8D77\u52D5\u6642\u306B\u3042\u306A\u305F\u306E\u62DB\u5F85\u30B3\u30FC\u30C9\u3092\u4F7F\u7528\u3057\u3066\u3082\u3089\u3044\u307E\u3057\u3087\u3046:"
+      - "\uB610\uB294 \uCE5C\uAD6C\uC5D0\uAC8C \uCCAB \uC2E4\uD589 \uC2DC \uB2F9\uC2E0\uC758
+        \uCD08\uB300 \uCF54\uB4DC\uB97C \uC0AC\uC6A9\uD558\uB3C4\uB85D \uC694\uCCAD\uD558\uC138\uC694:"
+      - "Ou demandez \xE0 vos amis d'utiliser ce code d'invitation lors du premier
+        d\xE9marrage\_:"
+      - "O pide a tus amigos que utilicen este c\xF3digo de invitaci\xF3n cuando
+        empiecen:"
+      - 'Oppure chiedi ai tuoi amici di utilizzare questo codice di invito quando
+        iniziano:'
+      - "Ou pe\xE7a aos seus amigos para usarem este c\xF3digo de convite quando
+        come\xE7arem:"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: ReferrerScreen/InviteWindow/ShareButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Share invite link
+      - "\u62DB\u5F85\u30EA\u30F3\u30AF\u3092\u5171\u6709"
+      - "\uCD08\uB300 \uB9C1\uD06C \uACF5\uC720"
+      - Partager un lien d'invitation
+      - "Compartir un enlace de invitaci\xF3n"
+      - Condividi un collegamento di invito
+      - Compartilhar um link de convite
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: NavigationButtons/History
+      TermType: 0
+      Description: 
+      Languages:
+      - History
+      - History
+      - History
+      - History
+      - History
+      - History
+      - "Hist\xF3rico"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: NavigationButtons/Home
+      TermType: 0
+      Description: 
+      Languages:
+      - Home
+      - Home
+      - Home
+      - Home
+      - Home
+      - Home
+      - "In\xEDcio"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: NavigationButtons/Bonus
+      TermType: 0
+      Description: 
+      Languages:
+      - Bonus
+      - Bonus
+      - Bonus
+      - Bonus
+      - Bonus
+      - Bonus
+      - "B\xF4nus"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: NavigationButtons/Gifts
+      TermType: 0
+      Description: 
+      Languages:
+      - Gifts
+      - Gifts
+      - Gifts
+      - Gifts
+      - Gifts
+      - Gifts
+      - Presentes
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: NavigationButtons/Payout
+      TermType: 0
+      Description: 
+      Languages:
+      - Payout
+      - Payout
+      - Payout
+      - Payout
+      - Payout
+      - Payout
+      - Pagamento
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PaypalTutorial/1/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - You received an email from <color=#EC521D>Tremendous</color> with a link
+        to access your Reward
+      - "<color=#EC521D>Tremendous</color> \u304B\u3089\u30EA\u30EF\u30FC\u30C9\u306B\u30A2\u30AF\u30BB\u30B9\u3059\u308B\u305F\u3081\u306E\u30EA\u30F3\u30AF\u4ED8\u304D\u30E1\u30FC\u30EB\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u305F"
+      - "<color=#EC521D>Tremendous</color> \uC5D0\uC11C \uB9AC\uC6CC\uB4DC\uC5D0
+        \uC811\uADFC\uD560 \uC218 \uC788\uB294 \uB9C1\uD06C\uAC00 \uD3EC\uD568\uB41C
+        \uC774\uBA54\uC77C\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4"
+      - "Vous avez re\xE7u un mail de <color=#EC521D>Tremendous</color> contenant
+        un lien pour acc\xE9der \xE0 votre r\xE9compense."
+      - "Recibiste un correo electr\xF3nico de <color=#EC521D>Tremendous</color>
+        con un enlace para acceder a tu recompensa."
+      - Hai ricevuto un'email da <color=#EC521D>Tremendous</color> con un link per
+        accedere al tuo premio
+      - "Voc\xEA recebeu um e-mail da <color=#EC521D>Tremendous</color> com um link
+        para acessar sua recompensa."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PaypalTutorial/2/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the email and click on <color=#EC521D>Redeem</color>  button
+      - "\u30E1\u30FC\u30EB\u3092\u958B\u3044\u3066 <color=#EC521D>Redeem</color>
+        \u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uC774\uBA54\uC77C\uC744 \uC5F4\uACE0 <color=#EC521D>Redeem</color> \uBC84\uD2BC\uC744
+        \uD074\uB9AD\uD558\uC138\uC694"
+      - Ouvrez le mail et cliquez sur le bouton <color=#EC521D>Redeem</color>.
+      - "Abre el correo electr\xF3nico y haz clic en el bot\xF3n <color=#EC521D>Redeem</color>."
+      - Apri l'email e clicca sul pulsante <color=#EC521D>Redeem</color>
+      - "Abra o e-mail e clique no bot\xE3o <color=#EC521D>Redeem</color>."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PaypalTutorial/3/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - enter your paypal and click on <color=#EC521D>transfer</color>  button
+      - "PayPal \u3092\u5165\u529B\u3057\u3001<color=#EC521D>transfer</color> \u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "PayPal \uC744 \uC785\uB825\uD558\uACE0 <color=#EC521D>transfer</color> \uBC84\uD2BC\uC744
+        \uD074\uB9AD\uD558\uC138\uC694"
+      - "Connectez-vous \xE0 votre compte PayPal et cliquez sur le bouton <color=#EC521D>Transfer</color>."
+      - "Ingresa tu cuenta de PayPal y haz clic en el bot\xF3n <color=#EC521D>Transfer</color>."
+      - Inserisci il tuo account PayPal e clicca sul pulsante <color=#EC521D>Trasfer</color>
+      - "Digite sua conta do PayPal e clique no bot\xE3o <color=#EC521D>Transfer</color>."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: PaypalTutorial/4/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - In most cases, the transfer takes just <color=#EC521D>a couple of minutes</color>
+        to be sent to you
+      - "\u307B\u3068\u3093\u3069\u306E\u5834\u5408\u3001\u9001\u91D1\u306F <color=#EC521D>\u6570\u5206</color>
+        \u4EE5\u5185\u306B\u5B8C\u4E86\u3057\u307E\u3059"
+      - "\uB300\uBD80\uBD84\uC758 \uACBD\uC6B0 \uC804\uC1A1\uC740 <color=#EC521D>\uBA87
+        \uBD84</color> \uC548\uC5D0 \uC644\uB8CC\uB429\uB2C8\uB2E4"
+      - Dans la plupart des cas, le virement ne prend que <color=#EC521D>quelques
+        minutes</color>.
+      - "En la mayor\xEDa de los casos, la transferencia solo tarda <color=#EC521D>un
+        par de minutos</color> en enviarse."
+      - Nella maggior parte dei casi, il trasferimento richiede solo <color=#EC521D>un
+        paio di minuti</color> per essere inviato
+      - "Na maioria dos casos, a transfer\xEAncia leva apenas <color=#EC521D>alguns
+        minutos</color> para ser enviada."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: OtherGiftcardsTutorial/1/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - You received an email from <color=#EC521D>Tremendous</color>  with a link
+        to access your Reward
+      - "<color=#EC521D>Tremendous</color> \u304B\u3089\u30EA\u30EF\u30FC\u30C9\u306B\u30A2\u30AF\u30BB\u30B9\u3059\u308B\u305F\u3081\u306E\u30EA\u30F3\u30AF\u4ED8\u304D\u30E1\u30FC\u30EB\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u305F"
+      - "<color=#EC521D>Tremendous</color> \uC5D0\uC11C \uB9AC\uC6CC\uB4DC\uC5D0
+        \uC811\uADFC\uD560 \uC218 \uC788\uB294 \uB9C1\uD06C\uAC00 \uD3EC\uD568\uB41C
+        \uC774\uBA54\uC77C\uC744 \uBC1B\uC558\uC2B5\uB2C8\uB2E4"
+      - "Vous avez re\xE7u un mail de <color=#EC521D>Tremendous</color> contenant
+        un lien pour acc\xE9der \xE0 votre r\xE9compense."
+      - "Recibiste un correo electr\xF3nico de <color=#EC521D>Tremendous</color>
+        con un enlace para acceder a tu recompensa."
+      - Hai ricevuto un'email da <color=#EC521D>Tremendous</color> con un link per
+        accedere al tuo premio
+      - "Voc\xEA recebeu um e-mail da <color=#EC521D>Tremendous</color> com um link
+        para acessar sua recompensa."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: OtherGiftcardsTutorial/2/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the email and click on <color=#EC521D>Redeem</color>  button
+      - "\u30E1\u30FC\u30EB\u3092\u958B\u3044\u3066 <color=#EC521D>Redeem</color>
+        \u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uC774\uBA54\uC77C\uC744 \uC5F4\uACE0 <color=#EC521D>Redeem</color> \uBC84\uD2BC\uC744
+        \uD074\uB9AD\uD558\uC138\uC694"
+      - Ouvrez le mail et cliquez sur le bouton <color=#EC521D>Redeem</color>.
+      - "Abre el correo electr\xF3nico y haz clic en el bot\xF3n <color=#EC521D>Redeem</color>."
+      - Apri l'email e clicca sul pulsante <color=#EC521D>Redeem</color>
+      - "Abra o e-mail e clique no bot\xE3o <color=#EC521D>Redeem</color>."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: OtherGiftcardsTutorial/3/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Confirm your <color=#EC521D>Reward</color> and <color=#EC521D>Country</color>
+        choice
+      - "<color=#EC521D>\u5831\u916C</color>\u3068<color=#EC521D>\u56FD</color>\u306E\u9078\u629E\u3092\u78BA\u8A8D\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "<color=#EC521D>\uBCF4\uC0C1</color>\uACFC <color=#EC521D>\uAD6D\uAC00</color>
+        \uC120\uD0DD\uC744 \uD655\uC778\uD558\uC138\uC694"
+      - "Confirmez votre choix de <color=#EC521D>R\xE9compense</color> et de <color=#EC521D>Pays</color>"
+      - "Confirma tu elecci\xF3n de <color=#EC521D>Recompensa</color> y <color=#EC521D>Pa\xEDs</color>"
+      - Conferma la tua scelta di <color=#EC521D>Ricompensa</color> e <color=#EC521D>Paese</color>
+      - "Confirme sua escolha de <color=#EC521D>Recompensa</color> e <color=#EC521D>Pa\xEDs</color>"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: OtherGiftcardsTutorial/4/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - 'get the Giftcard
+
+        Code AND <color=#EC521D>enjoy it</color>'
+      - "\u30AE\u30D5\u30C8\u30AB\u30FC\u30C9\u306E\u30B3\u30FC\u30C9\u3092\u53D6\u5F97\u3057\u3066\u3001\n<color=#EC521D>\u304A\u697D\u3057\u307F\u304F\u3060\u3055\u3044</color>"
+      - "\uAE30\uD504\uD2B8 \uCE74\uB4DC\r\n\uCF54\uB4DC\uB97C \uBC1B\uACE0 <color=#EC521D>\uC990\uAE30\uC138\uC694</color>"
+      - 'Obtenez le code de la carte cadeau
+
+        et <color=#EC521D>profitez-en</color>'
+      - "Obt\xE9n el c\xF3digo de la tarjeta de regalo\ny <color=#EC521D>disfr\xFAtalo</color>."
+      - 'Ottieni il codice della carta regalo
+
+        E <color=#EC521D>Goditelo</color>'
+      - "Receba o c\xF3digo do cart\xE3o-presente\ne <color=#EC521D>aproveite-o</color>."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Week Leaderboard
+      - "\u9031\u9593\u30E9\u30F3\u30AD\u30F3\u30B0"
+      - "\uC8FC\uAC04 \uB9AC\uB354\uBCF4\uB4DC"
+      - Classement hebdomadaire
+      - "Clasificaci\xF3n semanal"
+      - Classifica settimanale
+      - "Classifica\xE7\xE3o semanal"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Earn {0} <sprite name="coin"> coins to participate in and view the leaderboard
+      - "\u30E9\u30F3\u30AD\u30F3\u30B0\u306B\u53C2\u52A0\u3057\u3066\u8868\u793A\u3059\u308B\u306B\u306F\u3001{0}
+        <sprite name=\"coin\"> \u30B3\u30A4\u30F3\u3092\u7372\u5F97\u3057\u3066\u304F\u3060\u3055\u3044"
+      - "\uB9AC\uB354\uBCF4\uB4DC\uC5D0 \uCC38\uC5EC\uD558\uACE0 \uBCF4\uB824\uBA74
+        {0} <sprite name=\"coin\"> \uCF54\uC778\uC744 \uD68D\uB4DD\uD558\uC138\uC694"
+      - "Gagnez {0} <sprite name=\"coin\"> pi\xE8ces pour participer au classement
+        et le consulter"
+      - "Gana {0} monedas <sprite name=\"coin\"> para participar en la clasificaci\xF3n
+        y verla"
+      - Guadagna {0} monete <sprite name="coin"> per partecipare e visualizzare la
+        classifica
+      - "Ganhe {0} moedas <sprite name=\"coin\"> para participar da classifica\xE7\xE3o
+        e visualiz\xE1-la"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/Earning
+      TermType: 0
+      Description: 
+      Languages:
+      - Earnings
+      - "\u7372\u5F97\u984D"
+      - "\uC218\uC775"
+      - Gains
+      - Ganancias
+      - Guadagni
+      - Ganhos
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/Timer
+      TermType: 0
+      Description: 
+      Languages:
+      - Ends in
+      - "\u7D42\u4E86\u307E\u3067"
+      - "\uC885\uB8CC\uAE4C\uC9C0"
+      - Se termine dans
+      - Termina en
+      - Termina tra
+      - Termina em
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/PopupInfo/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - How the Leaderboard Works
+      - "\u30E9\u30F3\u30AD\u30F3\u30B0\u306E\u4ED5\u7D44\u307F"
+      - "\uB9AC\uB354\uBCF4\uB4DC \uC791\uB3D9 \uBC29\uC2DD"
+      - Comment fonctionne le classement
+      - "C\xF3mo funciona la clasificaci\xF3n"
+      - Come funziona la classifica
+      - "Como funciona a classifica\xE7\xE3o"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/PopupInfo/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Players are ranked by the coins they earn during the current week. Earn coins
+        by completing offers. The leaderboard resets every week.
+      - "\u30D7\u30EC\u30A4\u30E4\u30FC\u306F\u4ECA\u9031\u7372\u5F97\u3057\u305F\u30B3\u30A4\u30F3\u6570\u3067\u9806\u4F4D\u4ED8\u3051\u3055\u308C\u307E\u3059\u3002\u30AA\u30D5\u30A1\u30FC\u3092\u5B8C\u4E86\u3057\u3066\u30B3\u30A4\u30F3\u3092\u7372\u5F97\u3057\u307E\u3057\u3087\u3046\u3002\u30E9\u30F3\u30AD\u30F3\u30B0\u306F\u6BCE\u9031\u30EA\u30BB\u30C3\u30C8\u3055\u308C\u307E\u3059\u3002"
+      - "\uD50C\uB808\uC774\uC5B4\uB294 \uC774\uBC88 \uC8FC \uB3D9\uC548 \uD68D\uB4DD\uD55C
+        \uCF54\uC778 \uC218\uC5D0 \uB530\uB77C \uC21C\uC704\uAC00 \uB9E4\uACA8\uC9D1\uB2C8\uB2E4.
+        \uC624\uD37C\uB97C \uC644\uB8CC\uD558\uC5EC \uCF54\uC778\uC744 \uD68D\uB4DD\uD558\uC138\uC694.
+        \uB9AC\uB354\uBCF4\uB4DC\uB294 \uB9E4\uC8FC \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4."
+      - "Les joueurs sont class\xE9s en fonction des pi\xE8ces qu\u2019ils gagnent
+        pendant la semaine en cours. Gagnez des pi\xE8ces en compl\xE9tant des offres.
+        Le classement est r\xE9initialis\xE9 chaque semaine."
+      - "Los jugadores se clasifican seg\xFAn las monedas que ganan durante la semana
+        actual. Gana monedas completando ofertas. La clasificaci\xF3n se reinicia
+        cada semana."
+      - I giocatori vengono classificati in base alle monete guadagnate durante la
+        settimana corrente. Guadagna monete completando le offerte. La classifica
+        si azzera ogni settimana.
+      - "Os jogadores s\xE3o classificados de acordo com as moedas que ganham durante
+        a semana atual. Ganhe moedas completando ofertas. A classifica\xE7\xE3o \xE9
+        reiniciada toda semana."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Leaderboard/You
+      TermType: 0
+      Description: 
+      Languages:
+      - YOU
+      - "\u3042\u306A\u305F"
+      - "\uB2F9\uC2E0"
+      - VOUS
+      - USTED
+      - LEI
+      - "VOC\xCA"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Common/LoadingData
+      TermType: 0
+      Description: 
+      Languages:
+      - loading data...
+      - "\u30C7\u30FC\u30BF\u3092\u8AAD\u307F\u8FBC\u307F\u4E2D..."
+      - "\uB370\uC774\uD130 \uB85C\uB529 \uC911\u2026"
+      - "Chargement des donn\xE9es..."
+      - Cargando datos...
+      - Caricamento dei dati...
+      - Carregando dados...
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Common/ReceivingData
+      TermType: 0
+      Description: 
+      Languages:
+      - 'receiving data
+
+        from the server'
+      - "\u30B5\u30FC\u30D0\u30FC\u304B\u3089\u30C7\r\n\u30FC\u30BF\u3092\u53D7\u4FE1\u4E2D"
+      - "\uC11C\uBC84\uC5D0\uC11C \uB370\uC774\uD130\uB97C\r\n\uBC1B\uC544\uC624\uB294
+        \uC911"
+      - "R\xE9ception des donn\xE9es\r\ndu serveur"
+      - 'Recibiendo datos
+
+        del servidor'
+      - 'Ricezione dei dati
+
+        dal server'
+      - 'Recebendo dados
+
+        do servidor'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/MissionsButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Missions
+      - "\u30DF\u30C3\u30B7\u30E7\u30F3"
+      - "\uBBF8\uC158"
+      - Missions
+      - Misiones
+      - Missioni
+      - "Miss\xF5es"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: MissionsWindow/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Missions
+      - "\u30DF\u30C3\u30B7\u30E7\u30F3"
+      - "\uBBF8\uC158"
+      - Missions
+      - Misiones
+      - Missioni
+      - "Miss\xF5es"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: MissionsWindow/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Complete the goals below for quick rewards
+      - "\u4EE5\u4E0B\u306E\u76EE\u6A19\u3092\u9054\u6210\u3057\u3066\u5831\u916C\u3092\u30B2\u30C3\u30C8\u3057\u3088\u3046"
+      - "\uC544\uB798 \uBAA9\uD45C\uB97C \uC644\uB8CC\uD558\uACE0 \uBE60\uB978 \uBCF4\uC0C1\uC744
+        \uBC1B\uC73C\uC138\uC694"
+      - "Accomplissez les objectifs ci-dessous pour obtenir des r\xE9compenses"
+      - "Completa los objetivos a continuaci\xF3n para obtener recompensas"
+      - Completa gli obiettivi qui sotto per ottenere ricompense
+      - Complete os objetivos abaixo para ganhar recompensas
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: MissionsWindow/ProgressType/Games
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}/{1} games'
+      - "{0}/{1} \u30B2\u30FC\u30E0"
+      - "{0}/{1} \uAC8C\uC784"
+      - '{0}/{1} jeux'
+      - '{0}/{1} juegos'
+      - '{0}/{1} giochi'
+      - '{0}/{1} jogos'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: MissionsWindow/ProgressType/Coins
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0}/{1} coins'
+      - "{0}/{1} \u30B3\u30A4\u30F3"
+      - "{0}/{1} \uCF54\uC778"
+      - "{0}/{1} pi\xE8ces"
+      - '{0}/{1} monedas'
+      - '{0}/{1} monete'
+      - '{0}/{1} moedas'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: AND
+      TermType: 0
+      Description: 
+      Languages:
+      - AND
+      - "\u3055\u3089\u306B"
+      - "\uADF8\uB9AC\uACE0"
+      - ET
+      - Y
+      - E
+      - E
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Mission1
+      TermType: 0
+      Description: 
+      Languages:
+      - Install 1 game from {0}
+      - "{0}\u7D4C\u7531\u3067\u30B2\u30FC\u30E0\u30921\u3064\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3059\u308B"
+      - "{0}\uC5D0\uC11C \uAC8C\uC784 1\uAC1C \uC124\uCE58"
+      - Installez 1 jeu depuis {0}
+      - Instala 1 juego de {0}
+      - Installa 1 gioco da {0}
+      - Instale 1 jogo da {0}
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Mission2
+      TermType: 0
+      Description: 
+      Languages:
+      - Get 1 reward from {0}
+      - "{0}\u3067\u5831\u916C\u30921\u4EF6\u7372\u5F97\u3059\u308B"
+      - "{0}\uC5D0\uC11C \uBCF4\uC0C1 1\uAC1C \uD68D\uB4DD"
+      - "Obtenez 1 r\xE9compense d'{0}"
+      - "Obt\xE9n 1 recompensa de {0}"
+      - Ottieni 1 ricompensa da {0}
+      - Receba 1 recompensa da {0}
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Mission3
+      TermType: 0
+      Description: 
+      Languages:
+      - Get 1 reward in <color=#9E90D9>More Games</color>
+      - "More Games\u3067\u5831\u916C\u30921\u4EF6\u7372\u5F97\u3059\u308B"
+      - "More Games\uC5D0\uC11C \uBCF4\uC0C1 1\uAC1C \uD68D\uB4DD"
+      - "Obtenez 1 r\xE9compense dans <color=#9E90D9>Plus de jeux</color>"
+      - "Obt\xE9n 1 recompensa en <color=#9E90D9>M\xE1s juegos</color>"
+      - Ottieni 1 ricompensa in <color=#9E90D9>Altri giochi</color>
+      - Receba 1 recompensa em Mais Jogos
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Mission4-1
+      TermType: 0
+      Description: 
+      Languages:
+      - Install 3 games from {0}
+      - "{0}\u304B\u3089\u30B2\u30FC\u30E0\u30923\u3064\u30A4\u30F3\u30B9\u30C8\u30FC\u30EB\u3059\u308B"
+      - "{0}\uC5D0\uC11C \uAC8C\uC784 3\uAC1C \uC124\uCE58"
+      - Installez 3 jeux depuis {0}
+      - Instala 3 juegos de {0}
+      - Installa 3 giochi da {0}
+      - Instale 3 jogos da {0}
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Mission4-2
+      TermType: 0
+      Description: 
+      Languages:
+      - Earn 5000 coins from those games
+      - "\u305D\u308C\u3089\u306E\u30B2\u30FC\u30E0\u30675000\u30B3\u30A4\u30F3\u3092\u7372\u5F97\u3059\u308B"
+      - "\uD574\uB2F9 \uAC8C\uC784\uC5D0\uC11C \uCF54\uC778 5000\uAC1C \uD68D\uB4DD"
+      - "Gagnez 5000 pi\xE8ces gr\xE2ce \xE0 ces jeux"
+      - Gana 5000 monedas con esos juegos
+      - Guadagna 5000 monete da questi giochi
+      - Ganhe 5000 moedas com esses jogos
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MoreGamesWindow/Promo
+      TermType: 0
+      Description: 
+      Languages:
+      - <b>Get 1.5x coin boost! </b>We have added a special promotion in our <b>More
+        games</b> tab!
+      - "1.5\u500D\u306E\u30B3\u30A4\u30F3\u30D6\u30FC\u30B9\u30C8\u3092\u30B2\u30C3\u30C8\uFF01<b>
+        \u300CMore Games\u300D</b> \u30BF\u30D6\u306B\u7279\u5225\u30D7\u30ED\u30E2\u30FC\u30B7\u30E7\u30F3\u3092\u8FFD\u52A0\u3057\u307E\u3057\u305F\uFF01"
+      - "1.5\uBC30 \uCF54\uC778 \uBD80\uC2A4\uD2B8\uB97C \uBC1B\uC73C\uC138\uC694!
+        <b> More Games</b>  \uD0ED\uC5D0 \uD2B9\uBCC4 \uD504\uB85C\uBAA8\uC158\uC774
+        \uCD94\uAC00\uB418\uC5C8\uC2B5\uB2C8\uB2E4!"
+      - "<b>Profitez d\u2019un boost de pi\xE8ces x1,5</b> ! Nous avons ajout\xE9
+        une promotion sp\xE9ciale dans notre onglet <b>More Games</b>  !"
+      - "Consigue <b>un impulso de monedas de 1.5x</b> ! Hemos a\xF1adido una promoci\xF3n
+        especial en nuestra pesta\xF1a <b>More Games</b> !"
+      - Ottieni  <b>un boost monete da 1,5x</b>! Abbiamo aggiunto una promozione
+        speciale nella nostra scheda  <b>More Games</b>!
+      - "Ganhe  <b>um boost de moedas de 1,5x</b>! Adicion\xE1mos uma promo\xE7\xE3o
+        especial no nosso separador  <b>More Games</b>!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/MoreGamesButton2
+      TermType: 0
+      Description: 
+      Languages:
+      - MORE GAMES
+      - "\u3082\u3063\u3068\u30B2\u30FC\u30E0"
+      - "\uB354 \uB9CE\uC740 \uAC8C\uC784"
+      - PLUS 2 JEUX
+      - MAS JUEGOS
+      - PIU GIOCHI
+      - MAIS JOGOS
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/MoreGamesButton1
+      TermType: 0
+      Description: 
+      Languages:
+      - BEST GAMES
+      - "\u4EBA\u6C17\u30B2\u30FC\u30E0"
+      - "\uCD5C\uACE0\uC758 \uAC8C\uC784"
+      - BEST JEUX
+      - BEST JUEGOS
+      - BEST GIOCHI
+      - BEST JOGOS
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Main/MoreGamesPromoButton
+      TermType: 0
+      Description: 
+      Languages:
+      - 'MORE GAMES
+
+        <size=40>(special promo)</size>'
+      - "\u3082\u3063\u3068\u30B2\u30FC\u30E0\n<size=40>(\u7279\u5225\u30D7\u30ED\u30E2\u30FC\u30B7\u30E7\u30F3)</size>"
+      - "\uB354 \uB9CE\uC740 \uAC8C\uC784\n<size=40>(\uD2B9\uBCC4 \uD504\uB85C\uBAA8\uC158)</size>"
+      - "PLUS 2 JEUX\n<size=40>(promo sp\xE9ciale)</size>"
+      - 'MAS JUEGOS
+
+        <size=40>(promo especial)</size>'
+      - 'PIU GIOCHI
+
+        <size=40>(promo speciale)</size>'
+      - 'MAIS JOGOS
+
+        <size=40>(promo especial)</size>'
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Profile/Status
+      TermType: 0
+      Description: 
+      Languages:
+      - Status
+      - "\u30B9\u30C6\u30FC\u30BF\u30B9"
+      - "\uC0C1\uD0DC"
+      - Statut
+      - Estado
+      - Stato
+      - Status
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: MissionsWindow/DailyStreakButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily Streak
+      - "\u30C7\u30A4\u30EA\u30FC\u30B9\u30C8\u30EA\u30FC\u30AF"
+      - "\uB370\uC77C\uB9AC \uC2A4\uD2B8\uB9AD"
+      - "S\xE9rie quotidienne"
+      - Racha diaria
+      - Serie giornaliera
+      - "Sequ\xEAncia di\xE1ria"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily Streak
+      - "\u30C7\u30A4\u30EA\u30FC\u30B9\u30C8\u30EA\u30FC\u30AF"
+      - "\uB370\uC77C\uB9AC \uC2A4\uD2B8\uB9AD"
+      - "S\xE9rie quotidienne"
+      - Racha diaria
+      - Serie giornaliera
+      - "Sequ\xEAncia di\xE1ria"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/Desc1
+      TermType: 0
+      Description: 
+      Languages:
+      - Earn rewards daily to get a bonus
+      - "\u6BCE\u65E5\u30EA\u30EF\u30FC\u30C9\u3092\u7372\u5F97\u3057\u3066\u30DC\u30FC\u30CA\u30B9\u3092\u53D7\u3051\u53D6\u308D\u3046"
+      - "\uB9E4\uC77C \uBCF4\uC0C1\uC744 \uBC1B\uACE0 \uBCF4\uB108\uC2A4\uB97C \uD68D\uB4DD\uD558\uC138\uC694"
+      - "Gagnez des r\xE9compenses chaque jour pour obtenir un bonus"
+      - Gana recompensas a diario para obtener un bono
+      - Ottieni ricompense ogni giorno per ricevere un bonus
+      - "Ganhe recompensas diariamente para receber um b\xF4nus"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/Desc2
+      TermType: 0
+      Description: 
+      Languages:
+      - Earn at least 1 reward every day to advance in your streak
+      - "\u6BCE\u65E5\u5C11\u306A\u304F\u3068\u30821\u3064\u306E\u30EA\u30EF\u30FC\u30C9\u3092\u7372\u5F97\u3057\u3066\u30B9\u30C8\u30EA\u30FC\u30AF\u3092\u9032\u3081\u3088\u3046"
+      - "\uB9E4\uC77C \uCD5C\uC18C 1\uAC1C\uC758 \uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC5EC
+        \uC2A4\uD2B8\uB9AD\uC744 \uC774\uC5B4\uAC00\uC138\uC694"
+      - "Gagnez au moins 1 r\xE9compense chaque jour pour progresser dans votre s\xE9rie"
+      - "Gana al menos 1 recompensa cada d\xEDa para avanzar en tu racha"
+      - Ottieni almeno 1 ricompensa ogni giorno per avanzare nella tua serie
+      - "Ganhe pelo menos 1 recompensa todos os dias para avan\xE7ar na sua sequ\xEAncia"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/LeftDays
+      TermType: 0
+      Description: 
+      Languages:
+      - '{0} more days to unlock your weekly bonus'
+      - "\u9031\u9593\u30DC\u30FC\u30CA\u30B9\u306E\u30A2\u30F3\u30ED\u30C3\u30AF\u307E\u3067\u3042\u3068{0}\u65E5"
+      - "\uC8FC\uAC04 \uBCF4\uB108\uC2A4 \uC7A0\uAE08 \uD574\uC81C\uAE4C\uC9C0 {0}\uC77C
+        \uB0A8\uC558\uC2B5\uB2C8\uB2E4"
+      - "Encore {0} jours pour d\xE9bloquer votre bonus hebdomadaire"
+      - "{0} d\xEDas m\xE1s para desbloquear tu bono semanal"
+      - Ancora {0} giorni per sbloccare il tuo bonus settimanale
+      - "Mais {0} dias para desbloquear seu b\xF4nus semanal"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/CurrentStreak
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Current streak: <b><color=#FFD841>{0} days</color></b>'
+      - "\u73FE\u5728\u306E\u30B9\u30C8\u30EA\u30FC\u30AF\uFF1A<b><color=#FFD841>{0}\u65E5</color></b>"
+      - "\uD604\uC7AC \uC2A4\uD2B8\uB9AD: <b><color=#FFD841>{0}\uC77C</color></b>"
+      - "S\xE9rie actuelle : <b><color=#FFD841>{0} jours</color></b>"
+      - "Racha actual: <b><color=#FFD841>{0} d\xEDas</color></b>"
+      - 'Serie attuale: <b><color=#FFD841>{0} giorni</color></b>'
+      - "Sequ\xEAncia atual: <b><color=#FFD841>{0} dias</color></b>"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/Timer
+      TermType: 0
+      Description: 
+      Languages:
+      - The offer ends in
+      - "\u30AA\u30D5\u30A1\u30FC\u7D42\u4E86\u307E\u3067"
+      - "\uC624\uD37C \uC885\uB8CC\uAE4C\uC9C0"
+      - "L\u2019offre se termine dans"
+      - La oferta termina en
+      - "L\u2019offerta termina tra"
+      - A oferta termina em
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/OkButton
+      TermType: 0
+      Description: 
+      Languages:
+      - Keep it going
+      - "\u3053\u306E\u8ABF\u5B50\u3067\u7D9A\u3051\u3088\u3046"
+      - "\uACC4\uC18D \uC774\uC5B4\uAC00\uC138\uC694"
+      - "Continue comme \xE7a"
+      - "Sigue as\xED"
+      - "Continua cos\xEC"
+      - Continue assim
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/DailyRewardTitle
+      TermType: 0
+      Description: 
+      Languages:
+      - Daily reward
+      - "\u30C7\u30A4\u30EA\u30FC\u30EA\u30EF\u30FC\u30C9"
+      - "\uB370\uC77C\uB9AC \uBCF4\uC0C1"
+      - "R\xE9compense quotidienne"
+      - Recompensa diaria
+      - Ricompensa giornaliera
+      - "Recompensa di\xE1ria"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/DailyRewardDesc
+      TermType: 0
+      Description: 
+      Languages:
+      - Earn {0} coins every day you log in
+      - "\u30ED\u30B0\u30A4\u30F3\u3059\u308B\u305F\u3073\u306B\u6BCE\u65E5{0}\u30B3\u30A4\u30F3\u3092\u7372\u5F97"
+      - "\uB85C\uADF8\uC778\uD560 \uB54C\uB9C8\uB2E4 \uB9E4\uC77C {0}\uCF54\uC778\uC744
+        \uD68D\uB4DD\uD558\uC138\uC694"
+      - "Gagnez {0} pi\xE8ces chaque jour o\xF9 vous vous connectez"
+      - "Gana {0} monedas cada d\xEDa que inicies sesi\xF3n"
+      - Ottieni {0} monete ogni giorno in cui accedi
+      - Ganhe {0} moedas todos os dias em que fizer login
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/StreakRewardTitle
+      TermType: 0
+      Description: 
+      Languages:
+      - 7-day streak reward
+      - "7\u65E5\u9593\u30B9\u30C8\u30EA\u30FC\u30AF\u30EA\u30EF\u30FC\u30C9"
+      - "7\uC77C \uC2A4\uD2B8\uB9AD \uBCF4\uC0C1"
+      - "R\xE9compense de s\xE9rie de 7 jours"
+      - "Recompensa por racha de 7 d\xEDas"
+      - Ricompensa serie di 7 giorni
+      - "Recompensa por sequ\xEAncia de 7 dias"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/StreakRewardDesc
+      TermType: 0
+      Description: 
+      Languages:
+      - Log in 7 days in a row to earn more
+      - "7\u65E5\u9023\u7D9A\u3067\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u3055\u3089\u306B\u7372\u5F97\u3057\u3088\u3046"
+      - "7\uC77C \uC5F0\uC18D \uB85C\uADF8\uC778\uD558\uACE0 \uB354 \uB9CE\uC740
+        \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694"
+      - "Connectez-vous 7 jours d\u2019affil\xE9e pour gagner plus"
+      - "Inicia sesi\xF3n 7 d\xEDas seguidos para ganar m\xE1s"
+      - "Accedi per 7 giorni consecutivi per ottenere di pi\xF9"
+      - "Fa\xE7a login por 7 dias seguidos para ganhar mais"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/Expired
+      TermType: 0
+      Description: 
+      Languages:
+      - The offer has expired
+      - "\u30AA\u30D5\u30A1\u30FC\u306F\u7D42\u4E86\u3057\u307E\u3057\u305F"
+      - "\uC624\uD37C\uAC00 \uB9CC\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
+      - "L\u2019offre a expir\xE9"
+      - La oferta ha expirado
+      - "L\u2019offerta \xE8 scaduta"
+      - A oferta expirou
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/StayTuned
+      TermType: 0
+      Description: 
+      Languages:
+      - But stay tuned for new features coming soon!
+      - "\u3067\u3082\u3054\u5B89\u5FC3\u304F\u3060\u3055\u3044\u3002\u65B0\u6A5F\u80FD\u304C\u307E\u3082\u306A\u304F\u767B\u5834\u3057\u307E\u3059\uFF01"
+      - "\uD558\uC9C0\uB9CC \uACE7 \uC0C8\uB85C\uC6B4 \uAE30\uB2A5\uC774 \uCC3E\uC544\uC62C
+        \uC608\uC815\uC774\uB2C8 \uAE30\uB300\uD574 \uC8FC\uC138\uC694!"
+      - "Mais restez \xE0 l\u2019\xE9coute, de nouvelles fonctionnalit\xE9s arrivent
+        bient\xF4t !"
+      - "\xA1Pero mantente atento, pronto llegar\xE1n nuevas funciones!"
+      - "Ma resta sintonizzato: nuove funzionalit\xE0 arriveranno presto!"
+      - "Mas fique ligado: novos recursos chegar\xE3o em breve!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/MaximumStreak
+      TermType: 0
+      Description: 
+      Languages:
+      - 'Your maximum streak: <b><color=#FFD841>{0}</color></b>'
+      - "\u3042\u306A\u305F\u306E\u6700\u5927\u30B9\u30C8\u30EA\u30FC\u30AF\uFF1A<b><color=#FFD841>{0}</color></b>"
+      - "\uCD5C\uB300 \uC2A4\uD2B8\uB9AD: <b><color=#FFD841>{0}</color></b>"
+      - "Votre s\xE9rie maximale : <b><color=#FFD841>{0}</color></b>"
+      - "Tu racha m\xE1xima: <b><color=#FFD841>{0}</color></b>"
+      - 'La tua serie massima: <b><color=#FFD841>{0}</color></b>'
+      - "Sua sequ\xEAncia m\xE1xima: <b><color=#FFD841>{0}</color></b>"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: DailyStreak/MoreOffersButton
+      TermType: 0
+      Description: 
+      Languages:
+      - More offers
+      - "\u305D\u306E\u4ED6\u306E\u30AA\u30D5\u30A1\u30FC"
+      - "\uB354 \uB9CE\uC740 \uC624\uD37C"
+      - "Plus d\u2019offres"
+      - "M\xE1s ofertas"
+      - Altre offerte
+      - Mais ofertas
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/DailyStreakNotification/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Enable daily streak reminders?
+      - "\u30C7\u30A4\u30EA\u30FC\u30B9\u30C8\u30EA\u30FC\u30AF\u306E\u30EA\u30DE\u30A4\u30F3\u30C0\u30FC\u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uB370\uC77C\uB9AC \uC2A4\uD2B8\uB9AD \uC54C\uB9BC\uC744 \uCF24\uAE4C\uC694?"
+      - "Activer les rappels de s\xE9rie quotidienne ?"
+      - "Activer les rappels de s\xE9rie quotidienne ?"
+      - Attivare i promemoria della serie giornaliera?
+      - "Ativar lembretes da sequ\xEAncia di\xE1ria?"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/DailyStreakNotification/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "We\u2019ll remind you to claim 50 coins every day and keep your 7-day bonus."
+      - "\u6BCE\u65E550\u30B3\u30A4\u30F3\u3092\u53D7\u3051\u53D6\u308A\u30017\u65E5\u9593\u30DC\u30FC\u30CA\u30B9\u3092\u7DAD\u6301\u3067\u304D\u308B\u3088\u3046\u30EA\u30DE\u30A4\u30F3\u30C9\u3057\u307E\u3059\u3002"
+      - "\uB9E4\uC77C 50\uCF54\uC778\uC744 \uBC1B\uB294 \uAC83\uACFC 7\uC77C \uBCF4\uB108\uC2A4\uB97C
+        \uC720\uC9C0\uD558\uB294 \uAC83\uC744 \uC54C\uB824\uB4DC\uB9B4\uAC8C\uC694."
+      - "Nous vous rappellerons de r\xE9clamer 50 pi\xE8ces chaque jour et de conserver
+        votre bonus de 7 jours."
+      - "Te recordaremos que reclames 50 monedas cada d\xEDa y mantengas tu bono
+        de 7 d\xEDas."
+      - Ti ricorderemo di riscattare 50 monete ogni giorno e mantenere il tuo bonus
+        di 7 giorni.
+      - "Vamos lembrar voc\xEA de resgatar 50 moedas todos os dias e manter seu b\xF4nus
+        de 7 dias."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/DailyStreakNotification/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - "LET\u2019S GO!"
+      - "\u3055\u3042\u59CB\u3081\u3088\u3046\uFF01"
+      - "\uC2DC\uC791\uD558\uAE30!"
+      - "C\u2019EST PARTI !"
+      - "\xA1VAMOS!"
+      - PARTIAMO!
+      - "VAMOS L\xC1!"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MissionCompleted/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - Mission completed! <sprite name="confetti">
+      - "\u30DF\u30C3\u30B7\u30E7\u30F3\u9054\u6210\uFF01 <sprite name=\"confetti\">"
+      - "\uBBF8\uC158 \uC644\uB8CC! <sprite name=\"confetti\">"
+      - Mission accomplie ! <sprite name="confetti">
+      - "\xA1Misi\xF3n completada! <sprite name=\"confetti\">"
+      - Missione completata! <sprite name="confetti">
+      - "Miss\xE3o conclu\xEDda! <sprite name=\"confetti\">"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MissionCompleted/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "You\u2019ve completed your first mission. Open Missions to discover more
+        tasks and earn extra rewards."
+      - "\u6700\u521D\u306E\u30DF\u30C3\u30B7\u30E7\u30F3\u3092\u5B8C\u4E86\u3057\u307E\u3057\u305F\u3002\u30DF\u30C3\u30B7\u30E7\u30F3\u3092\u958B\u3044\u3066\u3001\u3055\u3089\u306B\u591A\u304F\u306E\u30BF\u30B9\u30AF\u3092\u898B\u3064\u3051\u3001\u8FFD\u52A0\u30EA\u30EF\u30FC\u30C9\u3092\u7372\u5F97\u3057\u307E\u3057\u3087\u3046\u3002"
+      - "\uCCAB \uBC88\uC9F8 \uBBF8\uC158\uC744 \uC644\uB8CC\uD588\uC2B5\uB2C8\uB2E4.
+        \uBBF8\uC158\uC744 \uC5F4\uC5B4 \uB354 \uB9CE\uC740 \uACFC\uC81C\uB97C \uD655\uC778\uD558\uACE0
+        \uCD94\uAC00 \uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC138\uC694."
+      - "Vous avez termin\xE9 votre premi\xE8re mission. Ouvrez les Missions pour
+        d\xE9couvrir plus de t\xE2ches et gagner des r\xE9compenses suppl\xE9mentaires."
+      - "Has completado tu primera misi\xF3n. Abre Misiones para descubrir m\xE1s
+        tareas y ganar recompensas extra."
+      - "Hai completato la tua prima missione. Apri Missioni per scoprire altre attivit\xE0
+        e ottenere ricompense extra."
+      - "Voc\xEA concluiu sua primeira miss\xE3o. Abra Miss\xF5es para descobrir
+        mais tarefas e ganhar recompensas extras."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/MissionCompleted/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - OPEN MISSIONS
+      - "\u30DF\u30C3\u30B7\u30E7\u30F3\u3092\u958B\u304F"
+      - "\uBBF8\uC158 \uC5F4\uAE30"
+      - OUVRIR LES MISSIONS
+      - ABRIR MISIONES
+      - APRI MISSIONI
+      - "ABRIR MISS\xD5ES"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutSlotLimit/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "PayPal payouts under $0.50 are designed as quick test payouts, so you can
+        see that rewards really work.\n\nBecause small PayPal transfers have high
+        fees, they\u2019re available only a limited number of times. Larger PayPal
+        payouts are usually the better option and are available without any limits.\n\nYou\u2019ll
+        always receive every reward you earn, no matter the amount."
+      - "0.50\u30C9\u30EB\u672A\u6E80\u306EPayPal\u652F\u6255\u3044\u306F\u3001\u5831\u916C\u304C\u5B9F\u969B\u306B\u6A5F\u80FD\u3059\u308B\u3053\u3068\u3092\u3059\u3070\u3084\u304F\u78BA\u8A8D\u3067\u304D\u308B\u30C6\u30B9\u30C8\u652F\u6255\u3044\u3068\u3057\u3066\u8A2D\u8A08\u3055\u308C\u3066\u3044\u307E\u3059\u3002\n\n\u5C11\u984D\u306EPayPal\u9001\u91D1\u306B\u306F\u9AD8\u3044\u624B\u6570\u6599\u304C\u304B\u304B\u308B\u305F\u3081\u3001\u3053\u308C\u3089\u306E\u652F\u6255\u3044\u30AA\u30D7\u30B7\u30E7\u30F3\u306F\u9650\u3089\u308C\u305F\u56DE\u6570\u306E\u307F\u5229\u7528\u3067\u304D\u307E\u3059\u3002\u3088\u308A\u5927\u304D\u306A\u91D1\u984D\u306EPayPal\u652F\u6255\u3044\u306F\u901A\u5E38\u3088\u308A\u826F\u3044\u9078\u629E\u80A2\u3067\u3042\u308A\u3001\u5236\u9650\u306A\u304F\u5229\u7528\u3067\u304D\u307E\u3059\u3002\n\n\u7372\u5F97\u3057\u305F\u5831\u916C\u306F\u3001\u91D1\u984D\u306B\u304B\u304B\u308F\u3089\u305A\u5FC5\u305A\u53D7\u3051\u53D6\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059\u3002"
+      - "0.50\uB2EC\uB7EC \uBBF8\uB9CC\uC758 PayPal \uC9C0\uAE09\uC740 \uBE60\uB978
+        \uD14C\uC2A4\uD2B8 \uC9C0\uAE09\uC6A9\uC73C\uB85C \uC124\uACC4\uB418\uC5B4,
+        \uBCF4\uC0C1\uC774 \uC2E4\uC81C\uB85C \uC9C0\uAE09\uB41C\uB2E4\uB294 \uAC83\uC744
+        \uD655\uC778\uD560 \uC218 \uC788\uB3C4\uB85D \uD569\uB2C8\uB2E4.\n\n\uC18C\uC561
+        PayPal \uC1A1\uAE08\uC5D0\uB294 \uB192\uC740 \uC218\uC218\uB8CC\uAC00 \uBC1C\uC0DD\uD558\uAE30
+        \uB54C\uBB38\uC5D0, \uD574\uB2F9 \uC9C0\uAE09 \uC635\uC158\uC740 \uC81C\uD55C\uB41C
+        \uD69F\uC218\uB9CC \uC774\uC6A9\uD560 \uC218 \uC788\uC2B5\uB2C8\uB2E4. \uB354
+        \uD070 \uAE08\uC561\uC758 PayPal \uC9C0\uAE09\uC740 \uC77C\uBC18\uC801\uC73C\uB85C
+        \uB354 \uC88B\uC740 \uC120\uD0DD\uC774\uBA70, \uC81C\uD55C \uC5C6\uC774 \uC774\uC6A9\uD560
+        \uC218 \uC788\uC2B5\uB2C8\uB2E4.\n\n\uD68D\uB4DD\uD55C \uBCF4\uC0C1\uC740
+        \uAE08\uC561\uACFC \uAD00\uACC4\uC5C6\uC774 \uD56D\uC0C1 \uBC1B\uC73C\uC2E4
+        \uC218 \uC788\uC2B5\uB2C8\uB2E4."
+      - "Les versements PayPal de moins de 0,45 \u20AC sont con\xE7us comme des versements
+        de test rapides, afin que vous puissiez constater que les r\xE9compenses
+        fonctionnent r\xE9ellement.\n\nComme les petits transferts PayPal entra\xEEnent
+        des frais \xE9lev\xE9s, ils ne sont disponibles qu\u2019un nombre limit\xE9
+        de fois. Les versements PayPal plus \xE9lev\xE9s sont g\xE9n\xE9ralement
+        une meilleure option et sont disponibles sans aucune limite.\n\nVous recevrez
+        toujours chaque r\xE9compense que vous gagnez, quel que soit son montant."
+      - "Los pagos de PayPal inferiores a 0,50 US$ est\xE1n dise\xF1ados como pagos
+        de prueba r\xE1pidos, para que puedas comprobar que las recompensas realmente
+        funcionan.\n\nComo las transferencias peque\xF1as de PayPal tienen comisiones
+        elevadas, solo est\xE1n disponibles un n\xFAmero limitado de veces. Los pagos
+        de PayPal m\xE1s altos suelen ser una mejor opci\xF3n y est\xE1n disponibles
+        sin ning\xFAn l\xEDmite.\n\nSiempre recibir\xE1s cada recompensa que ganes,
+        sin importar el importe."
+      - "I pagamenti PayPal inferiori a 0,50 \u20AC sono pensati come pagamenti di
+        prova rapidi, cos\xEC puoi vedere che le ricompense funzionano davvero.\n\nPoich\xE9
+        i piccoli trasferimenti PayPal hanno commissioni elevate, sono disponibili
+        solo un numero limitato di volte. I pagamenti PayPal di importo maggiore
+        sono di solito l\u2019opzione migliore e sono disponibili senza alcun limite.\n\nRiceverai
+        sempre ogni ricompensa guadagnata, indipendentemente dall\u2019importo."
+      - "Os pagamentos PayPal inferiores a US$ 0,50 foram criados como pagamentos
+        de teste r\xE1pidos, para que voc\xEA possa ver que as recompensas realmente
+        funcionam.\n\nComo pequenas transfer\xEAncias PayPal t\xEAm taxas elevadas,
+        elas est\xE3o dispon\xEDveis apenas um n\xFAmero limitado de vezes. Pagamentos
+        PayPal de valores maiores geralmente s\xE3o a melhor op\xE7\xE3o e est\xE3o
+        dispon\xEDveis sem nenhum limite.\n\nVoc\xEA sempre receber\xE1 todas as
+        recompensas que ganhar, independentemente do valor."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Popup/PayoutSlotLimit/Button
+      TermType: 0
+      Description: 
+      Languages:
+      - View larger payouts
+      - "\u3088\u308A\u5927\u304D\u306A\u652F\u6255\u3044\u3092\u898B\u308B"
+      - "\uB354 \uD070 \uC9C0\uAE09 \uBCF4\uAE30"
+      - "Voir les payouts plus \xE9lev\xE9s"
+      - "Ver pagos m\xE1s altos"
+      - "Vedi pagamenti pi\xF9 grandi"
+      - Ver pagamentos maiores
+      Flags: 00000000000000
+      Languages_Touch: []
+    CaseInsensitiveTerms: 0
+    OnMissingTranslation: 1
+    mTerm_AppName: 
+    mLanguages:
+    - Name: English
+      Code: en
+      Flags: 0
+    - Name: Japanese
+      Code: ja
+      Flags: 0
+    - Name: Korean
+      Code: ko
+      Flags: 0
+    - Name: French
+      Code: fr
+      Flags: 0
+    - Name: Spain
+      Code: eu-ES
+      Flags: 0
+    - Name: Italian
+      Code: it
+      Flags: 0
+    - Name: Portuguese
+      Code: pt
+      Flags: 0
+    IgnoreDeviceLanguage: 0
+    _AllowUnloadingLanguages: 0
+    Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzWTeNX85NRlQASW9gF3C1fYCcmHnBM12Vgs5kBCR8owT8za9xypR0IIHGlGx7tX99m/exec
+    Google_SpreadsheetKey: 15-zjW2pLwlq5TMMSbaEzwkbJlrC32b1x-tKq0IYO47M
+    Google_SpreadsheetName: I2Loc Cashee Localization
+    Google_LastUpdatedVersion: 1784986715410
+    Google_Password: cashee
+    GoogleUpdateFrequency: 3
+    GoogleInEditorCheckFrequency: 2
+    GoogleUpdateSynchronization: 1
+    GoogleUpdateDelay: 0
+    Assets: []
+    Spreadsheet_LocalFileName: 
+    Spreadsheet_LocalCSVSeparator: ','
+    Spreadsheet_LocalCSVEncoding: utf-8
+    Spreadsheet_SpecializationAsRows: 1
+    Spreadsheet_SortRows: 1

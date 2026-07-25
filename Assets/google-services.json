@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "138398553941",
+    "project_id": "bucksup-6404b",
+    "storage_bucket": "bucksup-6404b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138398553941:android:e0613d8f01290f5c7701dc",
+        "android_client_info": {
+          "package_name": "com.plusgames.bucksup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8x7_ogkz4R122AA7oSrPeh7xlU6UjpRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+<dependencies>
+  <androidPackages>
+    <androidPackage spec="io.adjoe:adjoe-sdk-android:3.3.2">
+      <repositories>
+          <repository>https://releases.adjoe.io/maven</repository>
+      </repositories>
+    </androidPackage>
+    <androidPackage spec="io.adjoe:adjoe-sdk-android-face-verification:1.4.0">
+      <repositories>
+        <repository>https://releases.adjoe.io/maven</repository>
+      </repositories>
+    </androidPackage>
+  </androidPackages>
+</dependencies>

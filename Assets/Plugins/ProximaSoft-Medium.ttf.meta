@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 98b05c79790640d4d8313ddd09009dbc
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Proxima Soft
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 8a1272ba68135a9488df678083f9ba26, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

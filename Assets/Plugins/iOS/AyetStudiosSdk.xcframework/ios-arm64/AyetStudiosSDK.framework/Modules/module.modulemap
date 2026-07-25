@@ -1,0 +1,11 @@
+framework module AyetStudiosSDK {
+  umbrella header "AyetStudiosSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module AyetStudiosSDK.Swift {
+    header "AyetStudiosSDK-Swift.h"
+    requires objc
+}

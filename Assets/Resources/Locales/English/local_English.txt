@@ -1,0 +1,81 @@
+intro;Play games<br>and Earn money
+intro_button;Continue
+tutorial_loading_info;Processing your welcome bonus…
+
+account_balance;Account balance
+earn_money;EARN MONEY
+minimum_payout;Minimum payout $0.2
+
+account;Home
+history;History
+payout;Payout
+payouts;Payouts
+
+balance_history;Balance history
+1_day;Today
+7_days;7 days
+30_days;30 days
+
+date;date
+request;request
+status;status
+
+Pending;Pending
+Processed;Email sent
+Declined;Declined
+
+withdraw;Send
+withdraw_input_email;Enter your Email...
+withdraw_input_paypal_error;Instead of the word "PayPal". Enter your PayPal account.
+withdraw_desc;Your email address
+
+edit_wallet;If you made a mistake: To change your email address, email us at pyotr@plus-games.com
+
+rate_info_1;Please rate our app
+rate_info_2_1;Write a review
+rate_info_2_2;Can you please leave a review on the app page in the store?
+rate_info_3;Withdrawal request sent. Wait for an email with your reward. Don't forget to claim the reward at the bottom of the email.
+rate_info_4;Not enough coins to pay out
+rate_info_button_1;Go
+rate_info_button_2;Ok
+
+unavailable_info;Temporarily unavailable. Closed on a fix.
+offertoro_button;Play games
+ads_button;Watch Ads
+ayet_button;Play games
+bitlabs_button;Surveys
+notik_button;Other games
+
+install;Install
+
+conn_from_another_ip;You connected from unknown IP. Your account is temporarily restricted.
+conn_from_same_ip;You cannot connect to the application from the second device.
+
+email_not_valid;Please enter the email associated with your account.
+access_restricted;Access Restricted. Please send your ID to reward@plus-games.com
+
+phone_auth_title;Security Identification
+phone_number_title;Your phone number:
+input_sms_title;Sms code: 
+input_sms_placeholder;Enter code
+verify_button;Verify
+verify_state_process;Verifying...
+verify_state_failed;Unverified
+verify_state_success;Verified
+phone_duplicate_error; Error: You have already linked another phone number to this account
+phone_input_error;Error: enter number in international format
+payout_history_placeholder;Our payout requests will appear here
+
+update_desc;Please update the app
+update_button;UPDATE
+try_again_later;Try Again Later
+several_devices_blocking;Access Restricted. According to our Terms of Service (https://plus-games.com/termsrplus) it is not allowed to use several devices for coins earning.
+
+dont_received_reward;It seems I didn’t receive my reward
+payoyt_desclaimers;Disclaimers<br><br>The merchants represented are not sponsors of the rewards or otherwise affiliated with us. The Logos and other identifying marks attached are trademarks of and owned by each represented company and/or its affiliates. Please visit each company’s website for additional terms and conditions.
+instagram_desc;Follow us on Instagram, like our three last posts and get 300 coins
+instagram_close_button;No Thanks
+instagram_link_button;Link
+receive_reward_info;How to receive my reward?<br>You will receive an email from ‘Your Digital Reward’ in your mailbox. Simply click on “Claim your reward” at the bottom of the email and enter your account information.
+
+support_button;Support
