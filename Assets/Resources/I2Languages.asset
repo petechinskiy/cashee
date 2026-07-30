@@ -2074,6 +2074,19 @@ MonoBehaviour:
       - "Miss\xF5es"
       Flags: 00000000000000
       Languages_Touch: []
+    - Term: Main/MissionsHint
+      TermType: 0
+      Description: 
+      Languages:
+      - "You\u2019re literally missing out on free money!"
+      - "\u304A\u91D1\u3092\u30BF\u30C0\u3067\u53D6\u308A\u9003\u3057\u3066\u308B\u3088\uFF01"
+      - "\uADF8\uB0E5 \uACF5\uC9DC \uB3C8\uC744 \uB193\uCE58\uACE0 \uC788\uB294 \uAC70\uC608\uC694!"
+      - "Tu passes litt\xE9ralement \xE0 c\xF4t\xE9 d'argent gratuit !"
+      - "Voc\xEA est\xE1 literalmente deixando dinheiro gr\xE1tis escapar!"
+      - Ti stai letteralmente perdendo soldi gratis!
+      - "Literalmente est\xE1s dejando escapar dinero gratis!"
+      Flags: 00000000000000
+      Languages_Touch: []
     - Term: MissionsWindow/Title
       TermType: 0
       Description: 
@@ -2170,13 +2183,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Get 1 reward in <color=#9E90D9>More Games</color>
-      - "More Games\u3067\u5831\u916C\u30921\u4EF6\u7372\u5F97\u3059\u308B"
-      - "More Games\uC5D0\uC11C \uBCF4\uC0C1 1\uAC1C \uD68D\uB4DD"
-      - "Obtenez 1 r\xE9compense dans <color=#9E90D9>Plus de jeux</color>"
-      - "Obt\xE9n 1 recompensa en <color=#9E90D9>M\xE1s juegos</color>"
-      - Ottieni 1 ricompensa in <color=#9E90D9>Altri giochi</color>
-      - Receba 1 recompensa em Mais Jogos
+      - Get 1 reward in <color=#9E90D9>Best Games</color>
+      - "Best Games\u3067\u5831\u916C\u30921\u4EF6\u7372\u5F97\u3059\u308B"
+      - "Best Games\uC5D0\uC11C \uBCF4\uC0C1 1\uAC1C \uD68D\uB4DD"
+      - "Obtenez 1 r\xE9compense dans <color=#9E90D9>Best Jeux</color>"
+      - "Obt\xE9n 1 recompensa en <color=#9E90D9>Best juegos</color>"
+      - Ottieni 1 ricompensa in <color=#9E90D9>Piu giochi</color>
+      - Receba 1 recompensa em BEST JOGOS
       Flags: 00000000000000
       Languages_Touch: []
     - Term: Mission4-1
@@ -2330,13 +2343,13 @@ MonoBehaviour:
       Description: 
       Languages:
       - Earn at least 1 reward every day to advance in your streak
-      - "\u6BCE\u65E5\u5C11\u306A\u304F\u3068\u30821\u3064\u306E\u30EA\u30EF\u30FC\u30C9\u3092\u7372\u5F97\u3057\u3066\u30B9\u30C8\u30EA\u30FC\u30AF\u3092\u9032\u3081\u3088\u3046"
+      - "\u6BCE\u65E5\u5C11\u306A\u304F\u3068\u30821\u3064\u306E\u5831\u916C\u3092\u7372\u5F97\u3057\u3066\u3001\u9023\u7D9A\u8A18\u9332\u3092\u4F38\u3070\u3057\u307E\u3057\u3087\u3046"
       - "\uB9E4\uC77C \uCD5C\uC18C 1\uAC1C\uC758 \uBCF4\uC0C1\uC744 \uD68D\uB4DD\uD558\uC5EC
-        \uC2A4\uD2B8\uB9AD\uC744 \uC774\uC5B4\uAC00\uC138\uC694"
+        \uC5F0\uC18D \uAE30\uB85D\uC744 \uC774\uC5B4\uAC00\uC138\uC694"
       - "Gagnez au moins 1 r\xE9compense chaque jour pour progresser dans votre s\xE9rie"
-      - "Gana al menos 1 recompensa cada d\xEDa para avanzar en tu racha"
+      - "Consigue al menos 1 recompensa cada d\xEDa para avanzar en tu racha"
       - Ottieni almeno 1 ricompensa ogni giorno per avanzare nella tua serie
-      - "Ganhe pelo menos 1 recompensa todos os dias para avan\xE7ar na sua sequ\xEAncia"
+      - "Ganhe pelo menos 1 recompensa por dia para avan\xE7ar na sua sequ\xEAncia"
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/LeftDays
@@ -2372,7 +2385,7 @@ MonoBehaviour:
       Languages:
       - The offer ends in
       - "\u30AA\u30D5\u30A1\u30FC\u7D42\u4E86\u307E\u3067"
-      - "\uC624\uD37C \uC885\uB8CC\uAE4C\uC9C0"
+      - "\uD61C\uD0DD \uC885\uB8CC\uAE4C\uC9C0"
       - "L\u2019offre se termine dans"
       - La oferta termina en
       - "L\u2019offerta termina tra"
@@ -2396,27 +2409,27 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Daily reward
-      - "\u30C7\u30A4\u30EA\u30FC\u30EA\u30EF\u30FC\u30C9"
-      - "\uB370\uC77C\uB9AC \uBCF4\uC0C1"
-      - "R\xE9compense quotidienne"
-      - Recompensa diaria
-      - Ricompensa giornaliera
-      - "Recompensa di\xE1ria"
+      - Today's reward
+      - "\u672C\u65E5\u306E\u5831\u916C"
+      - "\uC624\uB298\uC758 \uBCF4\uC0C1"
+      - "R\xE9compense du jour"
+      - Recompensa de hoy
+      - Ricompensa di oggi
+      - Recompensa de hoje
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/DailyRewardDesc
       TermType: 0
       Description: 
       Languages:
-      - Earn {0} coins every day you log in
-      - "\u30ED\u30B0\u30A4\u30F3\u3059\u308B\u305F\u3073\u306B\u6BCE\u65E5{0}\u30B3\u30A4\u30F3\u3092\u7372\u5F97"
-      - "\uB85C\uADF8\uC778\uD560 \uB54C\uB9C8\uB2E4 \uB9E4\uC77C {0}\uCF54\uC778\uC744
-        \uD68D\uB4DD\uD558\uC138\uC694"
-      - "Gagnez {0} pi\xE8ces chaque jour o\xF9 vous vous connectez"
-      - "Gana {0} monedas cada d\xEDa que inicies sesi\xF3n"
-      - Ottieni {0} monete ogni giorno in cui accedi
-      - Ganhe {0} moedas todos os dias em que fizer login
+      - Earn 1 reward today to unlock
+      - "\u4ECA\u65E51\u56DE\u5831\u916C\u3092\u7372\u5F97\u3057\u3066\u30A2\u30F3\u30ED\u30C3\u30AF"
+      - "\uC624\uB298 \uBCF4\uC0C1 1\uAC1C\uB97C \uD68D\uB4DD\uD558\uC5EC \uC7A0\uAE08
+        \uD574\uC81C"
+      - "Gagnez 1 r\xE9compense aujourd\u2019hui pour d\xE9bloquer"
+      - "Obt\xE9n 1 recompensa hoy para desbloquear"
+      - Ottieni 1 ricompensa oggi per sbloccare
+      - Ganhe 1 recompensa hoje para desbloquear
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/StreakRewardTitle
@@ -2424,11 +2437,11 @@ MonoBehaviour:
       Description: 
       Languages:
       - 7-day streak reward
-      - "7\u65E5\u9593\u30B9\u30C8\u30EA\u30FC\u30AF\u30EA\u30EF\u30FC\u30C9"
-      - "7\uC77C \uC2A4\uD2B8\uB9AD \uBCF4\uC0C1"
+      - "7\u65E5\u9593\u9023\u7D9A\u30DC\u30FC\u30CA\u30B9"
+      - "7\uC77C \uC5F0\uC18D \uBCF4\uC0C1"
       - "R\xE9compense de s\xE9rie de 7 jours"
       - "Recompensa por racha de 7 d\xEDas"
-      - Ricompensa serie di 7 giorni
+      - Ricompensa per la serie di 7 giorni
       - "Recompensa por sequ\xEAncia de 7 dias"
       Flags: 00000000000000
       Languages_Touch: []
@@ -2436,14 +2449,13 @@ MonoBehaviour:
       TermType: 0
       Description: 
       Languages:
-      - Log in 7 days in a row to earn more
-      - "7\u65E5\u9023\u7D9A\u3067\u30ED\u30B0\u30A4\u30F3\u3057\u3066\u3055\u3089\u306B\u7372\u5F97\u3057\u3088\u3046"
-      - "7\uC77C \uC5F0\uC18D \uB85C\uADF8\uC778\uD558\uACE0 \uB354 \uB9CE\uC740
-        \uBCF4\uC0C1\uC744 \uBC1B\uC73C\uC138\uC694"
-      - "Connectez-vous 7 jours d\u2019affil\xE9e pour gagner plus"
-      - "Inicia sesi\xF3n 7 d\xEDas seguidos para ganar m\xE1s"
-      - "Accedi per 7 giorni consecutivi per ottenere di pi\xF9"
-      - "Fa\xE7a login por 7 dias seguidos para ganhar mais"
+      - Complete all 7 days to earn
+      - "7\u65E5\u9593\u3059\u3079\u3066\u9054\u6210\u3057\u3066\u7372\u5F97"
+      - "7\uC77C\uC744 \uBAA8\uB450 \uC644\uB8CC\uD558\uC5EC \uD68D\uB4DD"
+      - Terminez les 7 jours pour gagner
+      - "Completa los 7 d\xEDas para obtener"
+      - Completa tutti i 7 giorni per ottenere
+      - Complete todos os 7 dias para ganhar
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/Expired
@@ -2451,10 +2463,10 @@ MonoBehaviour:
       Description: 
       Languages:
       - The offer has expired
-      - "\u30AA\u30D5\u30A1\u30FC\u306F\u7D42\u4E86\u3057\u307E\u3057\u305F"
-      - "\uC624\uD37C\uAC00 \uB9CC\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
+      - "\u3053\u306E\u30AA\u30D5\u30A1\u30FC\u306F\u7D42\u4E86\u3057\u307E\u3057\u305F"
+      - "\uD61C\uD0DD\uC774 \uC885\uB8CC\uB418\uC5C8\uC2B5\uB2C8\uB2E4"
       - "L\u2019offre a expir\xE9"
-      - La oferta ha expirado
+      - La oferta ha caducado
       - "L\u2019offerta \xE8 scaduta"
       - A oferta expirou
       Flags: 00000000000000
@@ -2464,14 +2476,14 @@ MonoBehaviour:
       Description: 
       Languages:
       - But stay tuned for new features coming soon!
-      - "\u3067\u3082\u3054\u5B89\u5FC3\u304F\u3060\u3055\u3044\u3002\u65B0\u6A5F\u80FD\u304C\u307E\u3082\u306A\u304F\u767B\u5834\u3057\u307E\u3059\uFF01"
-      - "\uD558\uC9C0\uB9CC \uACE7 \uC0C8\uB85C\uC6B4 \uAE30\uB2A5\uC774 \uCC3E\uC544\uC62C
-        \uC608\uC815\uC774\uB2C8 \uAE30\uB300\uD574 \uC8FC\uC138\uC694!"
-      - "Mais restez \xE0 l\u2019\xE9coute, de nouvelles fonctionnalit\xE9s arrivent
-        bient\xF4t !"
-      - "\xA1Pero mantente atento, pronto llegar\xE1n nuevas funciones!"
-      - "Ma resta sintonizzato: nuove funzionalit\xE0 arriveranno presto!"
-      - "Mas fique ligado: novos recursos chegar\xE3o em breve!"
+      - "\u8FD1\u65E5\u767B\u5834\u3059\u308B\u65B0\u6A5F\u80FD\u3092\u304A\u697D\u3057\u307F\u306B\uFF01"
+      - "\uD558\uC9C0\uB9CC \uACE7 \uCD9C\uC2DC\uB420 \uC0C8\uB85C\uC6B4 \uAE30\uB2A5\uC744
+        \uAE30\uB300\uD574 \uC8FC\uC138\uC694!"
+      - "Mais restez \xE0 l\u2019aff\xFBt des nouvelles fonctionnalit\xE9s \xE0 venir
+        !"
+      - "\xA1Pero permanece atento a las nuevas funciones que llegar\xE1n pronto!"
+      - "Ma resta aggiornato sulle nuove funzionalit\xE0 in arrivo!"
+      - "Mas fique atento aos novos recursos que chegar\xE3o em breve!"
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/MaximumStreak
@@ -2479,12 +2491,12 @@ MonoBehaviour:
       Description: 
       Languages:
       - 'Your maximum streak: <b><color=#FFD841>{0}</color></b>'
-      - "\u3042\u306A\u305F\u306E\u6700\u5927\u30B9\u30C8\u30EA\u30FC\u30AF\uFF1A<b><color=#FFD841>{0}</color></b>"
-      - "\uCD5C\uB300 \uC2A4\uD2B8\uB9AD: <b><color=#FFD841>{0}</color></b>"
+      - "\u3042\u306A\u305F\u306E\u6700\u9577\u9023\u7D9A\u8A18\u9332\uFF1A<color=#FFD841>{0}"
+      - "\uCD5C\uB300 \uC5F0\uC18D \uAE30\uB85D: <b><color=#FFD841>{0}</color></b>"
       - "Votre s\xE9rie maximale : <b><color=#FFD841>{0}</color></b>"
       - "Tu racha m\xE1xima: <b><color=#FFD841>{0}</color></b>"
       - 'La tua serie massima: <b><color=#FFD841>{0}</color></b>'
-      - "Sua sequ\xEAncia m\xE1xima: <b><color=#FFD841>{0}</color></b>"
+      - "Sua maior sequ\xEAncia: <b><color=#FFD841>{0}</color></b>"
       Flags: 00000000000000
       Languages_Touch: []
     - Term: DailyStreak/MoreOffersButton
@@ -2493,7 +2505,7 @@ MonoBehaviour:
       Languages:
       - More offers
       - "\u305D\u306E\u4ED6\u306E\u30AA\u30D5\u30A1\u30FC"
-      - "\uB354 \uB9CE\uC740 \uC624\uD37C"
+      - "\uB354 \uB9CE\uC740 \uD61C\uD0DD"
       - "Plus d\u2019offres"
       - "M\xE1s ofertas"
       - Altre offerte
@@ -2505,30 +2517,31 @@ MonoBehaviour:
       Description: 
       Languages:
       - Enable daily streak reminders?
-      - "\u30C7\u30A4\u30EA\u30FC\u30B9\u30C8\u30EA\u30FC\u30AF\u306E\u30EA\u30DE\u30A4\u30F3\u30C0\u30FC\u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u304B\uFF1F"
-      - "\uB370\uC77C\uB9AC \uC2A4\uD2B8\uB9AD \uC54C\uB9BC\uC744 \uCF24\uAE4C\uC694?"
-      - "Activer les rappels de s\xE9rie quotidienne ?"
-      - "Activer les rappels de s\xE9rie quotidienne ?"
-      - Attivare i promemoria della serie giornaliera?
-      - "Ativar lembretes da sequ\xEAncia di\xE1ria?"
+      - "\u6BCE\u65E5\u306E\u9023\u7D9A\u8A18\u9332\u30EA\u30DE\u30A4\u30F3\u30C0\u30FC\u3092\u6709\u52B9\u306B\u3057\u307E\u3059\u304B\uFF1F"
+      - "\uB9E4\uC77C \uC5F0\uC18D \uAE30\uB85D \uC54C\uB9BC\uC744 \uD65C\uC131\uD654\uD560\uAE4C\uC694?"
+      - "Activer les rappels quotidiens de s\xE9rie ?"
+      - "\xBFActivar los recordatorios diarios de racha?"
+      - Attivare i promemoria giornalieri della serie?
+      - "Ativar lembretes di\xE1rios de sequ\xEAncia?"
       Flags: 00000000000000
       Languages_Touch: []
     - Term: Popup/DailyStreakNotification/Desc
       TermType: 0
       Description: 
       Languages:
-      - "We\u2019ll remind you to claim 50 coins every day and keep your 7-day bonus."
-      - "\u6BCE\u65E550\u30B3\u30A4\u30F3\u3092\u53D7\u3051\u53D6\u308A\u30017\u65E5\u9593\u30DC\u30FC\u30CA\u30B9\u3092\u7DAD\u6301\u3067\u304D\u308B\u3088\u3046\u30EA\u30DE\u30A4\u30F3\u30C9\u3057\u307E\u3059\u3002"
-      - "\uB9E4\uC77C 50\uCF54\uC778\uC744 \uBC1B\uB294 \uAC83\uACFC 7\uC77C \uBCF4\uB108\uC2A4\uB97C
-        \uC720\uC9C0\uD558\uB294 \uAC83\uC744 \uC54C\uB824\uB4DC\uB9B4\uAC8C\uC694."
-      - "Nous vous rappellerons de r\xE9clamer 50 pi\xE8ces chaque jour et de conserver
-        votre bonus de 7 jours."
-      - "Te recordaremos que reclames 50 monedas cada d\xEDa y mantengas tu bono
-        de 7 d\xEDas."
-      - Ti ricorderemo di riscattare 50 monete ogni giorno e mantenere il tuo bonus
-        di 7 giorni.
-      - "Vamos lembrar voc\xEA de resgatar 50 moedas todos os dias e manter seu b\xF4nus
-        de 7 dias."
+      - "We\u2019ll remind you to claim your free 0.01$+ every day and keep your
+        7-day bonus."
+      - "\u6BCE\u65E5\u7121\u6599\u306E0.01$\u3092\u53D7\u3051\u53D6\u308A\u30017\u65E5\u9593\u30DC\u30FC\u30CA\u30B9\u3092\u7DAD\u6301\u3067\u304D\u308B\u3088\u3046\u306B\u304A\u77E5\u3089\u305B\u3057\u307E\u3059\u3002"
+      - "\uB9E4\uC77C \uBB34\uB8CC 0.01$\uB97C \uBC1B\uACE0 7\uC77C \uBCF4\uB108\uC2A4\uB97C
+        \uC720\uC9C0\uD558\uB3C4\uB85D \uC54C\uB824\uB4DC\uB9B4\uAC8C\uC694."
+      - "Nous vous rappellerons de r\xE9clamer vos 0.01$+ gratuits chaque jour et
+        de conserver votre bonus de 7 jours."
+      - "Te recordaremos que reclames tus 0.01$+ gratis cada d\xEDa y mantengas tu
+        bonificaci\xF3n de 7 d\xEDas."
+      - Ti ricorderemo di riscattare i tuoi 0.01$+ gratuiti ogni giorno e mantenere
+        il bonus di 7 giorni.
+      - "Lembraremos voc\xEA de resgatar seus 0.01$+ gr\xE1tis todos os dias e manter
+        seu b\xF4nus de 7 dias."
       Flags: 00000000000000
       Languages_Touch: []
     - Term: Popup/DailyStreakNotification/Button
@@ -2654,6 +2667,172 @@ MonoBehaviour:
       - Ver pagamentos maiores
       Flags: 00000000000000
       Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day2/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Your daily reward is waiting \U0001F381"
+      - "\u4ECA\u65E5\u306E\u30EA\u30EF\u30FC\u30C9\u304C\u5F85\u3063\u3066\u3044\u307E\u3059
+        \U0001F381"
+      - "\uC624\uB298\uC758 \uB9AC\uC6CC\uB4DC\uAC00 \uAE30\uB2E4\uB9AC\uACE0 \uC788\uC5B4\uC694
+        \U0001F381"
+      - "Votre r\xE9compense du jour vous attend \U0001F381"
+      - "Tu recompensa diaria te est\xE1 esperando \U0001F381"
+      - "La tua ricompensa giornaliera ti aspetta \U0001F381"
+      - "A sua recompensa di\xE1ria est\xE1 \xE0 sua espera \U0001F381"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day2/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the app today and claim the bonus.
+      - "\u4ECA\u65E5\u30A2\u30D7\u30EA\u3092\u958B\u3044\u3066\u30DC\u30FC\u30CA\u30B9\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u3087\u3046\u3002"
+      - "\uC624\uB298 \uC571\uC744 \uC5F4\uACE0 \uBCF4\uB108\uC2A4\uB97C \uBC1B\uC544\uBCF4\uC138\uC694."
+      - "Ouvrez l\u2019app aujourd\u2019hui et r\xE9cup\xE9rez votre bonus."
+      - Abre la app hoy y reclama el bonus.
+      - "Apri l\u2019app oggi e riscuoti il bonus."
+      - "Abra a app hoje e resgate o b\xF3nus."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day3/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "3 days in a row? Nice \U0001F525"
+      - "3\u65E5\u9023\u7D9A\u9054\u6210\uFF1F\u3044\u3044\u3067\u3059\u306D \U0001F525"
+      - "3\uC77C \uC5F0\uC18D \uB2EC\uC131? \uC88B\uC544\uC694 \U0001F525"
+      - "3 jours d\u2019affil\xE9e ? Bien jou\xE9 \U0001F525"
+      - "\xBF3 d\xEDas seguidos? Muy bien \U0001F525"
+      - "3 giorni di fila? Grande \U0001F525"
+      - "3 dias seguidos? Muito bem \U0001F525"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day3/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim Reward and keep moving toward your weekly bonus.
+      - "\u30EA\u30EF\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u3063\u3066\u3001\u9031\u9593\u30DC\u30FC\u30CA\u30B9\u306B\u8FD1\u3065\u304D\u307E\u3057\u3087\u3046\u3002"
+      - "\uB9AC\uC6CC\uB4DC\uB97C \uBC1B\uACE0 \uC8FC\uAC04 \uBCF4\uB108\uC2A4\uC5D0
+        \uD55C \uAC78\uC74C \uB354 \uAC00\uAE4C\uC6CC\uC9C0\uC138\uC694."
+      - "R\xE9cup\xE9rez votre r\xE9compense et continuez vers votre bonus hebdomadaire."
+      - Reclama tu recompensa y sigue avanzando hacia tu bonus semanal.
+      - Riscuoti la ricompensa e continua verso il tuo bonus settimanale.
+      - "Resgate a recompensa e continue a avan\xE7ar rumo ao seu b\xF3nus semanal."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day4/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Don\u2019t break your streak \U0001F440"
+      - "\u9023\u7D9A\u8A18\u9332\u3092\u9014\u5207\u308C\u3055\u305B\u306A\u3044\u3067
+        \U0001F440"
+      - "\uC5F0\uC18D \uAE30\uB85D\uC744 \uB04A\uC9C0 \uB9C8\uC138\uC694 \U0001F440"
+      - "Ne cassez pas votre s\xE9rie \U0001F440"
+      - "No rompas tu racha \U0001F440"
+      - "Non interrompere la tua serie \U0001F440"
+      - "N\xE3o quebre a sua sequ\xEAncia \U0001F440"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day4/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Open the app today to collect the reward.
+      - "\u4ECA\u65E5\u30A2\u30D7\u30EA\u3092\u958B\u3044\u3066\u30EA\u30EF\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u3087\u3046\u3002"
+      - "\uC624\uB298 \uC571\uC744 \uC5F4\uACE0 \uB9AC\uC6CC\uB4DC\uB97C \uBC1B\uC544\uBCF4\uC138\uC694."
+      - "Ouvrez l\u2019app aujourd\u2019hui pour r\xE9cup\xE9rer votre r\xE9compense."
+      - Abre la app hoy para recoger tu recompensa.
+      - "Apri l\u2019app oggi per raccogliere la ricompensa."
+      - Abra a app hoje para receber a recompensa.
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day5/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "You\u2019re close to the bonus \U0001F381"
+      - "\u30DC\u30FC\u30CA\u30B9\u307E\u3067\u3082\u3046\u5C11\u3057 \U0001F381"
+      - "\uBCF4\uB108\uC2A4\uAE4C\uC9C0 \uC5BC\uB9C8 \uB0A8\uC9C0 \uC54A\uC558\uC5B4\uC694
+        \U0001F381"
+      - "Vous \xEAtes proche du bonus \U0001F381"
+      - "Est\xE1s cerca del bonus \U0001F381"
+      - "Sei vicino al bonus \U0001F381"
+      - "Est\xE1 perto do b\xF3nus \U0001F381"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day5/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "Claim today\u2019s reward and stay on track for Day 7."
+      - "\u4ECA\u65E5\u306E\u30EA\u30EF\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u3063\u3066\u30017\u65E5\u76EE\u307E\u3067\u9806\u8ABF\u306B\u9032\u307F\u307E\u3057\u3087\u3046\u3002"
+      - "\uC624\uB298\uC758 \uB9AC\uC6CC\uB4DC\uB97C \uBC1B\uACE0 7\uC77C\uCC28\uAE4C\uC9C0
+        \uACC4\uC18D \uB2EC\uB824\uBCF4\uC138\uC694."
+      - "R\xE9cup\xE9rez la r\xE9compense du jour et restez sur la bonne voie jusqu\u2019au
+        Jour 7."
+      - "Reclama la recompensa de hoy y mantente en camino hacia el D\xEDa 7."
+      - Riscuoti la ricompensa di oggi e resta sulla buona strada per il Giorno 7.
+      - Resgate a recompensa de hoje e mantenha-se no caminho para o Dia 7.
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day6/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "One step away from cash \U0001F4B8"
+      - "\u73FE\u91D1\u307E\u3067\u3042\u3068\u4E00\u6B69 \U0001F4B8"
+      - "\uD604\uAE08\uAE4C\uC9C0 \uB2E8 \uD55C \uAC78\uC74C \U0001F4B8"
+      - "Plus qu\u2019une \xE9tape avant le cash \U0001F4B8"
+      - "A un paso del dinero \U0001F4B8"
+      - "A un passo dal denaro \U0001F4B8"
+      - "A um passo do dinheiro \U0001F4B8"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day6/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - "Open the app to keep your streak and unlock tomorrow\u2019s bonus."
+      - "\u30A2\u30D7\u30EA\u3092\u958B\u3044\u3066\u9023\u7D9A\u8A18\u9332\u3092\u7DAD\u6301\u3057\u3001\u660E\u65E5\u306E\u30DC\u30FC\u30CA\u30B9\u3092\u30A2\u30F3\u30ED\u30C3\u30AF\u3057\u307E\u3057\u3087\u3046\u3002"
+      - "\uC571\uC744 \uC5F4\uC5B4 \uC5F0\uC18D \uAE30\uB85D\uC744 \uC720\uC9C0\uD558\uACE0
+        \uB0B4\uC77C\uC758 \uBCF4\uB108\uC2A4\uB97C \uC7A0\uAE08 \uD574\uC81C\uD558\uC138\uC694."
+      - "Ouvrez l\u2019app pour garder votre s\xE9rie et d\xE9bloquer le bonus de
+        demain."
+      - "Abre la app para mantener tu racha y desbloquear el bonus de ma\xF1ana."
+      - "Apri l\u2019app per mantenere la tua serie e sbloccare il bonus di domani."
+      - "Abra a app para manter a sua sequ\xEAncia e desbloquear o b\xF3nus de amanh\xE3."
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day7/Title
+      TermType: 0
+      Description: 
+      Languages:
+      - "Your weekly bonus is ready \U0001F4B0"
+      - "\u9031\u9593\u30DC\u30FC\u30CA\u30B9\u306E\u6E96\u5099\u304C\u3067\u304D\u307E\u3057\u305F
+        \U0001F4B0"
+      - "\uC8FC\uAC04 \uBCF4\uB108\uC2A4\uAC00 \uC900\uBE44\uB410\uC5B4\uC694 \U0001F4B0"
+      - "Votre bonus hebdomadaire est pr\xEAt \U0001F4B0"
+      - "Tu bonus semanal est\xE1 listo \U0001F4B0"
+      - "Il tuo bonus settimanale \xE8 pronto \U0001F4B0"
+      - "O seu b\xF3nus semanal est\xE1 pronto \U0001F4B0"
+      Flags: 00000000000000
+      Languages_Touch: []
+    - Term: Notifications/DailyStreak/Day7/Desc
+      TermType: 0
+      Description: 
+      Languages:
+      - Claim your Day 7 reward!
+      - "7\u65E5\u76EE\u306E\u30EA\u30EF\u30FC\u30C9\u3092\u53D7\u3051\u53D6\u308A\u307E\u3057\u3087\u3046\uFF01"
+      - "7\uC77C\uCC28 \uB9AC\uC6CC\uB4DC\uB97C \uBC1B\uC544\uBCF4\uC138\uC694!"
+      - "R\xE9cup\xE9rez votre r\xE9compense du Jour 7 !"
+      - "\xA1Reclama tu recompensa del D\xEDa 7!"
+      - Riscuoti la ricompensa del Giorno 7!
+      - Resgate a sua recompensa do Dia 7!
+      Flags: 00000000000000
+      Languages_Touch: []
     CaseInsensitiveTerms: 0
     OnMissingTranslation: 1
     mTerm_AppName: 
@@ -2684,7 +2863,7 @@ MonoBehaviour:
     Google_WebServiceURL: https://script.google.com/macros/s/AKfycbzWTeNX85NRlQASW9gF3C1fYCcmHnBM12Vgs5kBCR8owT8za9xypR0IIHGlGx7tX99m/exec
     Google_SpreadsheetKey: 15-zjW2pLwlq5TMMSbaEzwkbJlrC32b1x-tKq0IYO47M
     Google_SpreadsheetName: I2Loc Cashee Localization
-    Google_LastUpdatedVersion: 1784986715410
+    Google_LastUpdatedVersion: 1785340953091
     Google_Password: cashee
     GoogleUpdateFrequency: 3
     GoogleInEditorCheckFrequency: 2

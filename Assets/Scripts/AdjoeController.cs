@@ -6,7 +6,7 @@ using System;
 
 public class AdjoeController : MonoBehaviour
 {
-    private const string SDK_HASH = "8b50f8826e52379f6d9819db7d7b2498";
+    private const string SDK_HASH = "d0013f0948e21cef3f0be6de36f7d90c";
 
     public Action _onOfferwallShow;
 

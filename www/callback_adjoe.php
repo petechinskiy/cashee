@@ -3,7 +3,7 @@ include('config.inc.php');
 include('functions.inc.php');
 
 $tbl = "income_adjoe";
-$s2s_token = "6rOaw3pl750QD9nZXKTq2vShj8df14xu";
+$s2s_token = "WjHI6i8rYd4gtc95Qkp70Tyv2PBO1J3Z";
 
 $user_uuid = !isset($_GET['user_uuid'])? "" : rawurldecode($_GET["user_uuid"]);
 $device_id = !isset($_GET['device_id'])? "-1" : rawurldecode($_GET["device_id"]);

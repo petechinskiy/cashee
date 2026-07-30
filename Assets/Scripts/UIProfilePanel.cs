@@ -50,7 +50,7 @@ public class UIProfilePanel : MonoBehaviour
         if ((int)_currentCoins != coins)
         {
             _currentCoins = Mathf.SmoothDamp(_currentCoins, coins, ref _velocity, 0.5f);
-            _balanceText.text = Mathf.RoundToInt(_currentCoins).ToString();
+            _balanceText.text = Mathf.RoundToInt(_currentCoins).ToString() + "<sprite name=\"coin_small\">";
         }
     }
 }

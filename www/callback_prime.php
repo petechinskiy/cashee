@@ -62,7 +62,7 @@ function isValidHash(): bool
     return hash_equals(strtolower($computedHash), strtolower($receivedHash));
 }
 
-$is_valid = isValidHash();
+$is_valid = in_array($ip, $ip_whitelist); //isValidHash();
 
 $device_id = !isset($_GET['user_uuid'])? "" : rawurldecode($_GET["user_uuid"]);
 $reward = !isset($_GET['reward'])? 0 : rawurldecode($_GET["reward"]);

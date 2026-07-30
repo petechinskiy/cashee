@@ -31,11 +31,12 @@ $sql = "SELECT daily_reward_coins FROM settings WHERE app_version='$app_version'
 $result = mysqli_query($conn, $sql);
 
 while ($r = mysqli_fetch_array($result)) {
-	$daily_rewards = array_map('intval', explode(';', $r_user['daily_reward_coins']));
+	$daily_rewards = array_map('intval', explode(';', $r['daily_reward_coins']));
 	$data = DailyStreakRewards($conn, $user_id, $states, $daily_rewards, true);
 
 	echo $data['states'];
 }
+mysqli_free_result($result);
 
 mysqli_close($conn);
 ?>

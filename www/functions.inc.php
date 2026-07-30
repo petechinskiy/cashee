@@ -2454,6 +2454,8 @@ function UserWasRegisteredIP($conn, $device_id, $ip) {
 }
 
 function AdjoeForEarnButton($country_code, $timestamp) {
+	return true;
+
 	$countries = array("US", "FR", "DE", "CA", "GB");
 	$start_date = new DateTime('2026-05-21 00:00:00');
 	$start_date_str = $start_date->format('Y-m-d H:i:s');

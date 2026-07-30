@@ -305,19 +305,22 @@ if ($phone_verified) {
 	} else if (NeedAdjoeReportChecking($registration_date) && AnyAdjoeReward($conn, $user_id)) {
 		$adjoe_report_diff = AdjoeReportDiff($conn, $user_id);
 
-		if ($adjoe_report_diff < 0.1 && $coins_orig > 350) {
+		if ($adjoe_report_diff < 0.02 && $coins_orig > 350) {
 			$order_status = 7;
 		}
 	}
 
-	if (($vpn_usage || $country_switch) || ($is_first_payout && IsVPNUsage($ip))) {
+	if ($vpn_usage || $country_switch) {
 		$order_status = 7;
+	} else if ($is_first_payout && IsVPNUsage($ip)) {
+		$order_status = 7;
+		mysqli_query($conn, "UPDATE users SET vpn_usage='1' WHERE user_id='$user_id' LIMIT 1");
 	}
 
 	if ($order_status == 0 && NeedMychipsReportChecking($registration_date) && AnyMychipsReward($conn, $user_id)) {
 		$mychips_report_diff = MychipsReportDiff($conn, $user_id);
 
-		if ($mychips_report_diff < 0.1 && $coins_orig > 350) {
+		if ($mychips_report_diff < 0.02 && $coins_orig > 350) {
 			$order_status = 7;
 		}
 	}
@@ -325,7 +328,7 @@ if ($phone_verified) {
 	if ($order_status == 0 && NeedPrimeReportChecking($registration_date) && AnyPrimeReward($conn, $user_id)) {
 		$prime_report_diff = PrimeReportDiff($conn, $user_id);
 
-		if ($prime_report_diff < 0.1 && $coins_orig > 350) {
+		if ($prime_report_diff < 0.02 && $coins_orig > 350) {
 			$order_status = 7;
 		}
 	}

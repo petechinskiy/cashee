@@ -146,6 +146,7 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
     [SerializeField] private Button _missionsButton;
     [SerializeField] private GameObject _missionAlertIcon;
     [SerializeField] private UIMissionsWindow _missionsWindow;
+    [SerializeField] private Button _missionsHintButton;
     [SerializeField] private NavigationButton _payoutButton;
     [SerializeField] private GameObject _firstMissionCompletedPopup;
     [SerializeField] private GameObject _dailyStreakNotificationPopup;
@@ -399,12 +400,24 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
             SendWelcomeBonusRequest();
         });
 
-        _missionsButton.onClick.AddListener(() =>
+        void OpenMissionsWindow()
         {
             _missionsWindow.Show();
 
             _targetEvents.Add("missions-opened");
             CheckEvents();
+
+            _missionsHintButton.gameObject.SetActive(false);
+        }
+
+        _missionsButton.onClick.AddListener(() =>
+        {
+            OpenMissionsWindow();
+        });
+
+        _missionsHintButton.onClick.AddListener(() =>
+        {
+            OpenMissionsWindow();
         });
 
         _missionsWindow.Init(() =>
@@ -680,13 +693,13 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
                 {
                     revenue = ((int)(revenue * 100)) * 0.01f;
 
-                    if (revenue > 0.5f)
+                    if (revenue >= 0.5f)
                     {
                         SingularSDK.Revenue("USD", revenue);
                         SingularSDK.Event("postback", "revenue", revenue);
                         //FirebaseManager.Instance.SendRevenueEvent(revenue);
                     }
-                    else if (revenue < 0.05f)
+                    else
                     {
                         SingularAdData data = new SingularAdData(
                             "Adjoe",
@@ -730,6 +743,7 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
                     _missionsWindow.UpdateMissions(data);
                     _missionsButton.gameObject.SetActive(SettingsData.CanShowMissions);
                     _missionAlertIcon.SetActive(data.Missions.Any(e => !e.Completed));
+                    _missionsHintButton.gameObject.SetActive(!ApplicationState.IsFirstLaunch && !ApplicationState.EventsCompleted.Contains("missions-opened"));
 
                     foreach (var mission in data.Missions)
                     {
