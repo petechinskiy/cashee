@@ -9,7 +9,7 @@
     <package>com.google.firebase:firebase-app-unity:13.2.0</package>
     <package>com.google.firebase:firebase-common:22.0.0</package>
     <package>com.singular.sdk:singular_sdk:12.10.0</package>
-    <package>io.adjoe:adjoe-sdk-android:3.3.2</package>
+    <package>io.adjoe:adjoe-sdk-android:4.5.2</package>
     <package>io.adjoe:adjoe-sdk-android-face-verification:1.4.0</package>
   </packages>
   <files>
@@ -20,7 +20,7 @@
   </files>
   <settings>
     <setting name="androidAbis" value="arm64-v8a,armeabi-v7a" />
-    <setting name="bundleId" value="com.plusgames.rewardee" />
+    <setting name="bundleId" value="com.plusgames.cashee" />
     <setting name="explodeAars" value="True" />
     <setting name="gradleBuildEnabled" value="True" />
     <setting name="gradlePropertiesTemplateEnabled" value="True" />

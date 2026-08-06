@@ -20,7 +20,15 @@ public class PrimeOfferwallController : MonoBehaviour
 
     public void ShowOfferwall()
     {
-        _webView.Load($"{_uri}&uuid={ApplicationController.Instance.DeviceId}&maid={ApplicationController.Instance.GpsAdid}");
+        var settings = ApplicationController.Instance.SettingsData;
+        int source = 4, network = 4;
+
+        if (!settings.IsOrganic)
+        {
+            source = network = settings.CampaignId.Contains("unity") ? 14 : 1;
+        }
+
+        _webView.Load($"{_uri}&uuid={ApplicationController.Instance.DeviceId}&maid={ApplicationController.Instance.GpsAdid}&source={source}&network={network}");
         _webView.Show();
         _closeButton.gameObject.SetActive(true);
     }
