@@ -62,6 +62,17 @@ function isValidHash(): bool
     return hash_equals(strtolower($computedHash), strtolower($receivedHash));
 }
 
+function removeEmoji($text) {
+    $text = preg_replace('/[\x{1F100}-\x{1F1FF}]/u', '', $text);
+    $text = preg_replace('/[\x{1F300}-\x{1F5FF}]/u', '', $text);
+    $text = preg_replace('/[\x{1F600}-\x{1F64F}]/u', '', $text);
+    $text = preg_replace('/[\x{1F680}-\x{1F6FF}]/u', '', $text);
+    $text = preg_replace('/[\x{1F900}-\x{1F9FF}]/u', '', $text);
+    $text = preg_replace('/[\x{2600}-\x{26FF}]/u', '', $text);
+    $text = preg_replace('/[\x{2700}-\x{27BF}]/u', '', $text);
+    return $text;
+}
+
 $is_valid = in_array($ip, $ip_whitelist); //isValidHash();
 
 $device_id = !isset($_GET['user_uuid'])? "" : rawurldecode($_GET["user_uuid"]);
@@ -72,6 +83,7 @@ $postback_type = !isset($_GET['type'])? 0 : rawurldecode($_GET["type"]);
 $offer_name = !isset($_GET['offer_name'])? "" : rawurldecode($_GET["offer_name"]);
 $offer_name = mysqli_real_escape_string($conn, $offer_name);
 $task_name = !isset($_GET['task_name'])? "" : rawurldecode($_GET["task_name"]);
+$task_name = removeEmoji($task_name);
 $task_name = mysqli_real_escape_string($conn, $task_name);
 $task_name = iconv_substr($task_name, 0, 64, 'UTF-8');
 

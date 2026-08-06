@@ -836,9 +836,9 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
 
         SendEvent(url, (response) =>
         {
-            var states = JsonUtility.FromJson<List<int>>(response);
+            var data = JsonUtility.FromJson<DailyStreakData>(response);
 
-            CheckDailyStreakEvents(states);
+            CheckDailyStreakEvents(data.States);
         });
     }
 
@@ -1117,7 +1117,7 @@ public class ApplicationController : Singleton<ApplicationController>, SingularD
                         {
                             case 3:
                             case 5:
-                                errorText = "Access Restricted. According to our Terms of Service (https://plus-games.com/bucks-up-terms). It is not allowed to use several devices for coins earning.";
+                                errorText = "Access Restricted. According to our Terms of Service (https://plus-games.com/cashee-terms). It is not allowed to use several devices for coins earning.";
                                 break;
                             case 7:
                                 errorText = "Terms & Conditions of Use Violated.";

@@ -321,7 +321,7 @@ function HasOfferwallRewardToday($conn, $user_id) {
 		mysqli_free_result($result);
 	}
 	
-	return $total;
+	return $total > 0;
 }
 
 function SamuraiCoins($conn, $user_id) {
@@ -2572,10 +2572,11 @@ function DailyStreakStates($conn, $user_id, $start_time, $states) {
 	$current_timestamp = time();
 	$time_diff = $current_timestamp - $start_time;
 	$days_passed = (int)($time_diff / (24 * 60 * 60));
-	$days_passed = min(7, $days_passed);
+	$days_passed = min(6, $days_passed);
 	$need_update = false;
 	$has_reward_today = HasOfferwallRewardToday($conn, $user_id);
 	$i = 0;
+	$reset_timer = false;
 
 	do {
 		$state = $states[$i];
@@ -2588,19 +2589,32 @@ function DailyStreakStates($conn, $user_id, $start_time, $states) {
 				$states[$i] = 1;
 			} else {
 				$states = [0, 0, 0, 0, 0, 0, 0];
+				$reset_timer = true;
 				break;
 			}
 		} else if ($state < 0) {
+			$need_update = $reset_timer = true;
 			$states = $get_reward ? [1, 0, 0, 0, 0, 0, 0] : [0, 0, 0, 0, 0, 0, 0];
+			break;
 		}
-	} while ($i < $days_passed);
+
+		$i++;
+	} while ($i <= $days_passed);
 
 	if ($need_update) {
 		$states_str = implode(";",$states);
-		mysqli_query($conn, "UPDATE users SET daily_streak='$states_str' WHERE user_id='$user_id' LIMIT 1");
+
+		if ($reset_timer) {
+			$reset_time = new DateTime();
+			$reset_time_str = $reset_time->format('Y-m-d H:i:s');
+
+			mysqli_query($conn, "UPDATE users SET daily_streak='$states_str', daily_streak_reset_time='$reset_time_str' WHERE user_id='$user_id' LIMIT 1");
+		} else {
+			mysqli_query($conn, "UPDATE users SET daily_streak='$states_str' WHERE user_id='$user_id' LIMIT 1");
+		}
 	}
 
-	return $states;
+	return array('states' => $states, 'reset_timer' => $reset_timer);
 }
 
 function DailyStreakRewards($conn, $user_id, $states, $rewards, $get_reward) {
@@ -2631,8 +2645,6 @@ function DailyStreakRewards($conn, $user_id, $states, $rewards, $get_reward) {
 
 				$need_update = true;
 			}
-		} else {
-			$reset_timer = true;
 		}
 
 		$c = $state > 0 ? $c + 1 : 0;
@@ -2643,6 +2655,6 @@ function DailyStreakRewards($conn, $user_id, $states, $rewards, $get_reward) {
 		mysqli_query($conn, "UPDATE users SET daily_streak='$states_str' WHERE user_id='$user_id' LIMIT 1");
 	}
 
-	return array('states' => $states, 'daily_reward_index' => $reward_index, 'reset_timer' => $reset_timer);
+	return array('states' => $states, 'daily_reward_index' => $reward_index);
 }
 ?>

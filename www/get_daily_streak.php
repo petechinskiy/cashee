@@ -8,7 +8,7 @@ $app_version = !isset($_GET['app_version'])? "" : rawurldecode($_GET["app_versio
 $user_id = 0;
 $rows = [];
 
-$sql_user = "SELECT user_id, first_open_date, timestamp, country, campaign, ip, daily_streak FROM users WHERE device_id='$device_id' LIMIT 1";
+$sql_user = "SELECT user_id, first_open_date, timestamp, country, campaign, ip, daily_streak, daily_streak_reset_time FROM users WHERE device_id='$device_id' LIMIT 1";
 
 if ($result_user = mysqli_query($conn, $sql_user)) {
 	while ($r_user = mysqli_fetch_array($result_user)) {
@@ -19,6 +19,7 @@ if ($result_user = mysqli_query($conn, $sql_user)) {
 		$campaign = $r_user['campaign'];
 		$ip = $r_user['ip'];
 		$states = array_map('intval', explode(';', $r_user['daily_streak']));
+		$daily_streak_reset_time = $r_user['daily_streak_reset_time'];
 	}
 
 	mysqli_free_result($result_user);
@@ -36,21 +37,24 @@ while ($r = mysqli_fetch_array($result)) {
 	$daily_coins = array_map('intval', explode(';', $r['daily_reward_coins']));
 	$daily_revenue = array_map('floatval', explode(';', $r['daily_reward_revenue']));
 
-	$reward_data = DailyStreakRewards($conn, $user_id, $states, $daily_coins, false);
-
 	$current_time = time();
+	$start_time = strtotime($daily_streak_reset_time);
+	$reward_data = DailyStreakRewards($conn, $user_id, $states, $daily_coins, false);
+	$states_data = DailyStreakStates($conn, $user_id, $start_time, $states);
+
+	if ($states_data['reset_timer']) {
+		$start_time = $current_time;
+	}
+
 	$target_diff_time = 7 * 24 * 60 * 60;
-	$start_time = $reward_data['reset_timer'] ? $current_time : strtotime($last_opened_date);
 	$target_time = $start_time + $target_diff_time;
 	$left_time = $target_time - $current_time;
-
-	$states_data = DailyStreakStates($conn, $user_id, $start_time, $states);
 
 	$daily_reward_index = $reward_data['daily_reward_index'];
 
 	$rows['DailyRevenue'] = $daily_revenue[$daily_reward_index];
 	$rows['StreakRevenue'] = (float)$r['daily_streak_revenue'];
-	$rows['States'] = $states_data;
+	$rows['States'] = $states_data['states'];
 	$rows['LeftSecondsToEnd'] = max(0, $left_time);
 }
 

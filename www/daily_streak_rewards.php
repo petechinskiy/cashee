@@ -33,10 +33,10 @@ $result = mysqli_query($conn, $sql);
 while ($r = mysqli_fetch_array($result)) {
 	$daily_rewards = array_map('intval', explode(';', $r['daily_reward_coins']));
 	$data = DailyStreakRewards($conn, $user_id, $states, $daily_rewards, true);
+	$rows['States'] = $data['states'];
 
-	echo $data['states'];
+	echo json_encode($rows, JSON_PRETTY_PRINT);
 }
-mysqli_free_result($result);
 
 mysqli_close($conn);
 ?>
